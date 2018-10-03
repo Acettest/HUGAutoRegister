@@ -1,0 +1,14 @@
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\Release\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\Release\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\Release\DefLib.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\bin\Release\DefLib.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\bin\Release\DefLib.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\bin\Release\C5.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\bin\Release\C5.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\obj\Release\DefLib.csprojAssemblyReference.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\obj\Release\DefLib.csproj.CoreCompileInputs.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\obj\Release\DefLib.csproj.CopyComplete
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\obj\Release\DefLib.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\DefLib\obj\Release\DefLib.pdb

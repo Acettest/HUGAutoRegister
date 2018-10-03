@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Body>
+  <!--状态 1:成功 0:失败-->
+  <Status>1</Status>
+  <!--消息-->
+  <Message>接收成功</Message>
+</Body>

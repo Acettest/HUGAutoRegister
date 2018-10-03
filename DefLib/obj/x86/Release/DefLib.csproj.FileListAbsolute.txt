@@ -1,0 +1,5 @@
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Release\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Release\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Release\DefLib.pdb

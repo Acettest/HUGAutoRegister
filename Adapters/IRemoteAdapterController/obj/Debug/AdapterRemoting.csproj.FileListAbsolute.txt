@@ -1,0 +1,76 @@
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\WLAN系统\代码管理\智能眼独立服务器版本(2011-12-29)\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\WLAN系统\代码管理\智能眼独立服务器版本(2011-12-29)\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\WLAN系统\代码管理\智能眼独立服务器版本(2011-12-29)\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\WLAN系统\代码管理\智能眼独立服务器版本(2011-12-29)\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\WLAN系统\代码管理\智能眼独立服务器版本(2011-12-29)\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+E:\Code Information\宽带项目\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+E:\Code Information\宽带项目\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+E:\Code Information\宽带项目\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\宽带项目\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+E:\Code Information\宽带项目\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\项目\安徽\传输项目\Gpon自动激活\代码\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\ftth\代码\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\ftth\代码\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\ftth\代码\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\ftth\代码\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\ftth\代码\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\ftth\new\代码\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\ftth\new\代码\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\ftth\new\代码\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\ftth\new\代码\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\ftth\new\代码\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+F:\天馈\资料--传输资料---阿龙给的\FTTH\FTTH\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+F:\天馈\资料--传输资料---阿龙给的\FTTH\FTTH\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+F:\天馈\资料--传输资料---阿龙给的\FTTH\FTTH\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+F:\天馈\资料--传输资料---阿龙给的\FTTH\FTTH\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+F:\天馈\资料--传输资料---阿龙给的\FTTH\FTTH\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+H:\安徽项目\安徽传输项目\一网通\YWT\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+H:\安徽项目\安徽传输项目\一网通\YWT\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+H:\安徽项目\安徽传输项目\一网通\YWT\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.csproj.CoreCompileInputs.cache
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.csproj.CoreCompileInputs.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb

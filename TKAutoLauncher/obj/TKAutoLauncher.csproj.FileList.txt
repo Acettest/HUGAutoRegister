@@ -1,0 +1,8 @@
+bin\Debug\TKAutoLauncher.exe
+bin\Debug\TKAutoLauncher.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TKAutoLauncher.exe
+obj\Debug\TKAutoLauncher.pdb
+obj\Debug\TKAutoLauncher.ProjectInstaller.resources
+obj\Debug\TKAutoLauncher.csproj.GenerateResource.Cache
+obj\Debug\TKAutoLauncher.TKAutoLauncher.resources

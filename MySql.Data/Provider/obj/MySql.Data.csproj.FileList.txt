@@ -1,0 +1,8 @@
+bin\Debug\MySql.Data.dll
+bin\Debug\MySql.Data.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+obj\Debug\MySql.Data.dll
+obj\Debug\MySql.Data.pdb

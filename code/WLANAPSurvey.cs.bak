@@ -1,0 +1,111 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TK_AlarmManagement
+{
+    public class WLANAPSupervise : DefLib.ICommandRegister, ICommandHandler
+    {
+
+        #region ICommandHandler 成员
+
+        public void handleCommand(ICommunicationMessage message)
+        {
+            switch (message.TK_CommandType)
+            {
+                case Constants.TK_CommandType.MON_SURVEY_APLIST:
+                case Constants.TK_CommandType.MON_SETTESTMODE_AUTO:
+                case Constants.TK_CommandType.MON_SETTESTMODE_INSPECT:
+                case Constants.TK_CommandType.MON_SETTESTMODE_LOCK:
+                case Constants.TK_CommandType.MON_SETTESTMODE_MANUAL:
+                    CommandProcessor.instance().DispatchCommand(_SuperviseAPInfo(message));
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private ICommunicationMessage _SuperviseAPInfo(ICommunicationMessage message)
+        {
+            CommandMsgV2 resp = new CommandMsgV2();
+            resp.TK_CommandType = Constants.TK_CommandType.RESPONSE;
+            resp.SeqID = CommandProcessor.AllocateID();
+            resp.SetValue(Constants.MSG_PARANAME_RESPONSE_TO, message.SeqID);
+            resp.SetValue("ClientID", message.GetValue("ClientID"));
+            resp.SetValue(Constants.MSG_PARANAME_RESULT, "OK");
+
+            long adapterid = Convert.ToInt64(message.GetValue(Constants.MSG_PARANAME_ADAPTER_ID));
+            WLANTestLineInfo lineInfo = message.GetValue(Constants.MSG_PARANAME_APLINEINFO) as WLANTestLineInfo;
+
+             C5.HashDictionary<long, AdapterInfo> ads = new C5.HashDictionary<long, AdapterInfo>();
+            AlarmManager.instance().GetAdaptersInfo(ads);
+            if (!ads.Contains(adapterid))
+            {
+                resp.SetValue(Constants.MSG_PARANAME_RESULT, "NOK");
+                resp.SetValue(Constants.MSG_PARANAME_REASON, "采集器不存在.");
+                return resp;
+            }
+
+            try
+            {
+                CommandMsgV2 cmd = new CommandMsgV2();
+                cmd.SeqID = CommandProcessor.AllocateID();
+                cmd.TK_CommandType = message.TK_CommandType;  //不同类型的命令统一转发给采集
+                cmd.SetValue(Constants.MSG_PARANAME_ADAPTER_NAME, ads[adapterid].Name);
+                cmd.SetValue(Constants.MSG_PARANAME_APLINEINFO, lineInfo);
+
+                if (message.TK_CommandType != Constants.TK_CommandType.MON_SURVEY_APLIST) //模式设置时，添加发送的SSID信息
+                    cmd.SetValue(Constants.MSG_PARANAME_APSELECTINFO, message.GetValue(Constants.MSG_PARANAME_APSELECTINFO).ToString());
+
+                System.Net.IPEndPoint end = new System.Net.IPEndPoint(System.Net.IPAddress.Parse(ads[adapterid].Address), ads[adapterid].ControllerPort);
+                if (end.Port == 0)
+                {
+                    resp.SetValue(Constants.MSG_PARANAME_RESULT, "NOK");
+                    resp.SetValue(Constants.MSG_PARANAME_REASON, "不可远程控制的采集器");
+                }
+                else
+                {
+                    ICommClient comm = CommManager.instance().CreateCommClient<CommandMsgV2, TKMessageV2Extractor, TKMessageV2Encoder>("控制器",
+                        end.Address.ToString(), end.Port, 30, false, false);
+
+                    comm.Start();
+                    ICommunicationMessage r2 = comm.SendCommand(cmd, 120);
+                    resp.SetValue(Constants.MSG_PARANAME_RESULT, r2.GetValue(Constants.MSG_PARANAME_RESULT));
+                    resp.SetValue(Constants.MSG_PARANAME_CHARTRESULT, r2.GetValue(Constants.MSG_PARANAME_CHARTRESULT));
+                    comm.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                resp.SetValue(Constants.MSG_PARANAME_RESULT, "NOK");
+                resp.SetValue(Constants.MSG_PARANAME_REASON, ex.Message);
+            }
+
+            return resp;
+        }
+
+        #endregion
+
+        #region ICommandRegister 成员
+
+        public void RegisterCommand()
+        {
+            CommandProcessor.instance().registerReportHandler(Constants.TK_CommandType.MON_SURVEY_APLIST, this, null);
+            CommandProcessor.instance().registerReportHandler(Constants.TK_CommandType.MON_SETTESTMODE_AUTO, this, null);
+            CommandProcessor.instance().registerReportHandler(Constants.TK_CommandType.MON_SETTESTMODE_INSPECT, this, null);
+            CommandProcessor.instance().registerReportHandler(Constants.TK_CommandType.MON_SETTESTMODE_LOCK, this, null);
+            CommandProcessor.instance().registerReportHandler(Constants.TK_CommandType.MON_SETTESTMODE_MANUAL, this, null);
+        }
+
+        public void UnRegisterCommand()
+        {
+            CommandProcessor.instance().unregisterReportHandler(Constants.TK_CommandType.MON_SURVEY_APLIST, this);
+            CommandProcessor.instance().unregisterReportHandler(Constants.TK_CommandType.MON_SETTESTMODE_AUTO, this);
+            CommandProcessor.instance().unregisterReportHandler(Constants.TK_CommandType.MON_SETTESTMODE_INSPECT, this);
+            CommandProcessor.instance().unregisterReportHandler(Constants.TK_CommandType.MON_SETTESTMODE_LOCK, this);
+            CommandProcessor.instance().unregisterReportHandler(Constants.TK_CommandType.MON_SETTESTMODE_MANUAL, this);
+        }
+
+        #endregion
+    }
+}

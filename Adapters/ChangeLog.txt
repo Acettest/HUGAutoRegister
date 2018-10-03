@@ -1,0 +1,8 @@
+v1.3 2015-07-21 by d.w
+-----------------------
+1.增加宽带限速模板预配置，默认模板名称“FTTHUP100M”
+
+v1.2 2014-09-29 by d.w
+-----------------------
+1.[YWTTl1Wrapper>Tl1Wrapper>AdditionalRules]增加开机回滚工单失败，如果是ONU不存在则判断成功
+2.[YWTCommandsBuilder_Fiber>FiberCommandsBuilder>ParseErrorDesc]增加宽带拆机业务VLAN不存在错误定位

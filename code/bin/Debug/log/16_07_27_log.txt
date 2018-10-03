@@ -1,0 +1,911 @@
+09:10:19	[BL]: 监控通讯服务器 started at 0.0.0.0:7003
+09:10:19	[BL]: 监控通讯服务器已启动,最大客户端数量:5
+09:10:19	[BL]: 北向接口服务器 started at 0.0.0.0:7005
+09:10:19	[BL]: 北向接口服务器已启动,最大客户端数量:5
+09:10:19	[BL]: 告警通讯服务器(压缩) started at 0.0.0.0:7006
+09:10:19	[BL]: 告警通讯服务器(压缩)(压缩)已启动,最大客户端数量:128
+09:10:19	[BL]: 告警通讯服务器 started at 0.0.0.0:7007
+09:10:19	[BL]: 告警通讯服务器已启动,最大客户端数量:128
+09:10:19	[BL]: 采集通讯服务器 started at 0.0.0.0:7004
+09:10:19	[BL]: 采集通讯服务器已启动,最大客户端数量:32
+09:10:19	[BL]: 正在启动所有告警适配器...
+09:10:19	[BL]: 告警服务器已经启动.
+09:15:19	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:15:35	[BL]: 客户端 127.0.0.1:6538 连接到:采集通讯服务器
+09:15:35	[BL]: 采集通讯服务器当前客户端的数量:1
+09:15:35	[AsyncComm]: Received[1]: 1
+09:15:35	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:15:35	[AsyncComm]: Received[1]: 2
+09:15:35	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:16:05	[AsyncComm]: Received[1]: 3
+09:16:35	[AsyncComm]: Received[1]: 4
+09:17:10	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:17:10	[BL]: 采集通讯服务器当前客户端的数量:0
+09:17:10	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:17:50	[BL]: 客户端 127.0.0.1:6550 连接到:采集通讯服务器
+09:17:50	[BL]: 采集通讯服务器当前客户端的数量:1
+09:17:50	[AsyncComm]: Received[2]: 5
+09:17:50	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:17:50	[AsyncComm]: Received[2]: 6
+09:17:50	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:18:20	[AsyncComm]: Received[2]: 7
+09:18:50	[AsyncComm]: Received[2]: 8
+09:19:30	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:19:30	[BL]: 采集通讯服务器当前客户端的数量:0
+09:19:30	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:20:00	[BL]: 客户端 127.0.0.1:6571 连接到:采集通讯服务器
+09:20:00	[BL]: 采集通讯服务器当前客户端的数量:1
+09:20:00	[AsyncComm]: Received[3]: 9
+09:20:00	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:20:15	[AsyncComm]: Received[3]: 10
+09:20:15	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:20:20	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:20:35	[AsyncComm]: Received[3]: 11
+09:21:05	[AsyncComm]: Received[3]: 12
+09:21:50	[AsyncComm]: Received[3]: 13
+09:23:10	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:23:10	[BL]: 采集通讯服务器当前客户端的数量:0
+09:23:10	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:23:45	[BL]: 客户端 127.0.0.1:6600 连接到:采集通讯服务器
+09:23:45	[BL]: 采集通讯服务器当前客户端的数量:1
+09:23:45	[AsyncComm]: Received[4]: 14
+09:23:45	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:23:45	[AsyncComm]: Received[4]: 15
+09:23:45	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:24:15	[AsyncComm]: Received[4]: 16
+09:24:45	[AsyncComm]: Received[4]: 17
+09:25:15	[AsyncComm]: Received[4]: 18
+09:25:20	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:25:45	[AsyncComm]: Received[4]: 19
+09:26:15	[AsyncComm]: Received[4]: 20
+09:26:51	[AsyncComm]: Received[4]: 21
+09:27:16	[AsyncComm]: Received[4]: 22
+09:27:46	[AsyncComm]: Received[4]: 23
+09:28:26	[AsyncComm]: Received[4]: 24
+09:28:41	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:28:41	[BL]: 采集通讯服务器当前客户端的数量:0
+09:28:41	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:29:11	[BL]: 客户端 127.0.0.1:6625 连接到:采集通讯服务器
+09:29:11	[BL]: 采集通讯服务器当前客户端的数量:1
+09:29:11	[AsyncComm]: Received[5]: 25
+09:29:11	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:29:11	[AsyncComm]: Received[5]: 26
+09:29:11	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:29:41	[AsyncComm]: Received[5]: 27
+09:30:21	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:31:06	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:31:06	[BL]: 采集通讯服务器当前客户端的数量:0
+09:31:06	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:31:31	[BL]: 客户端 127.0.0.1:6651 连接到:采集通讯服务器
+09:31:31	[BL]: 采集通讯服务器当前客户端的数量:1
+09:31:31	[AsyncComm]: Received[6]: 28
+09:31:31	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:31:31	[AsyncComm]: Received[6]: 29
+09:31:31	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:32:16	[AsyncComm]: Received[6]: 30
+09:32:36	[AsyncComm]: Received[6]: 31
+09:33:01	[AsyncComm]: Received[6]: 32
+09:33:16	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:33:16	[BL]: 采集通讯服务器当前客户端的数量:0
+09:33:16	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:34:01	[BL]: 客户端 127.0.0.1:6663 连接到:采集通讯服务器
+09:34:01	[BL]: 采集通讯服务器当前客户端的数量:1
+09:34:01	[AsyncComm]: Received[7]: 33
+09:34:01	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:34:01	[AsyncComm]: Received[7]: 34
+09:34:01	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:34:46	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:34:46	[BL]: 采集通讯服务器当前客户端的数量:0
+09:34:46	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:34:51	[BL]: 客户端 127.0.0.1:6675 连接到:采集通讯服务器
+09:34:51	[BL]: 采集通讯服务器当前客户端的数量:1
+09:34:51	[AsyncComm]: Received[8]: 35
+09:34:51	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:34:51	[AsyncComm]: Received[8]: 36
+09:34:51	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:35:21	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:35:26	[AsyncComm]: Received[8]: 37
+09:35:56	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:35:56	[BL]: 采集通讯服务器当前客户端的数量:0
+09:35:56	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:36:11	[BL]: 客户端 127.0.0.1:6692 连接到:采集通讯服务器
+09:36:11	[BL]: 采集通讯服务器当前客户端的数量:1
+09:36:11	[AsyncComm]: Received[9]: 38
+09:36:11	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:36:11	[AsyncComm]: Received[9]: 39
+09:36:11	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:36:36	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:36:36	[BL]: 采集通讯服务器当前客户端的数量:0
+09:36:36	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:36:51	[BL]: 客户端 127.0.0.1:6704 连接到:采集通讯服务器
+09:36:51	[BL]: 采集通讯服务器当前客户端的数量:1
+09:36:51	[AsyncComm]: Received[10]: 40
+09:36:51	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:36:51	[AsyncComm]: Received[10]: 41
+09:36:51	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:37:17	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:37:17	[BL]: 采集通讯服务器当前客户端的数量:0
+09:37:17	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:37:27	[BL]: 客户端 127.0.0.1:6710 连接到:采集通讯服务器
+09:37:27	[BL]: 采集通讯服务器当前客户端的数量:1
+09:37:27	[AsyncComm]: Received[11]: 42
+09:37:27	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:37:27	[AsyncComm]: Received[11]: 43
+09:37:27	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:37:57	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:37:57	[BL]: 采集通讯服务器当前客户端的数量:0
+09:37:57	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:38:57	[BL]: 客户端 127.0.0.1:6728 连接到:采集通讯服务器
+09:38:57	[BL]: 采集通讯服务器当前客户端的数量:1
+09:38:57	[AsyncComm]: Received[12]: 44
+09:38:57	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:38:57	[AsyncComm]: Received[12]: 45
+09:38:57	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:39:37	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:39:37	[BL]: 采集通讯服务器当前客户端的数量:0
+09:39:37	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:40:02	[BL]: 客户端 127.0.0.1:6738 连接到:采集通讯服务器
+09:40:02	[BL]: 采集通讯服务器当前客户端的数量:1
+09:40:02	[AsyncComm]: Received[13]: 46
+09:40:02	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:40:02	[AsyncComm]: Received[13]: 47
+09:40:02	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:40:17	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:40:27	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:40:27	[BL]: 采集通讯服务器当前客户端的数量:0
+09:40:27	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:43:07	[BL]: 客户端 127.0.0.1:6745 连接到:采集通讯服务器
+09:43:07	[BL]: 采集通讯服务器当前客户端的数量:1
+09:43:07	[AsyncComm]: Received[14]: 48
+09:43:07	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:43:07	[AsyncComm]: Received[14]: 49
+09:43:07	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:43:37	[AsyncComm]: Received[14]: 50
+09:43:57	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:43:57	[BL]: 采集通讯服务器当前客户端的数量:0
+09:43:57	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:44:07	[BL]: 客户端 127.0.0.1:6761 连接到:采集通讯服务器
+09:44:07	[BL]: 采集通讯服务器当前客户端的数量:1
+09:44:07	[AsyncComm]: Received[15]: 51
+09:44:07	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:44:07	[AsyncComm]: Received[15]: 52
+09:44:07	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:44:57	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:44:57	[BL]: 采集通讯服务器当前客户端的数量:0
+09:44:57	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:45:17	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:46:22	[BL]: 客户端 127.0.0.1:6772 连接到:采集通讯服务器
+09:46:22	[BL]: 采集通讯服务器当前客户端的数量:1
+09:46:22	[AsyncComm]: Received[16]: 53
+09:46:22	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:46:22	[AsyncComm]: Received[16]: 54
+09:46:22	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:46:32	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:46:32	[BL]: 采集通讯服务器当前客户端的数量:0
+09:46:32	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:47:02	[BL]: 客户端 127.0.0.1:6779 连接到:采集通讯服务器
+09:47:02	[BL]: 采集通讯服务器当前客户端的数量:1
+09:47:02	[AsyncComm]: Received[17]: 55
+09:47:02	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:47:02	[AsyncComm]: Received[17]: 56
+09:47:02	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:47:32	[AsyncComm]: Received[17]: 57
+09:47:48	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:47:48	[BL]: 采集通讯服务器当前客户端的数量:0
+09:47:48	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:48:03	[BL]: 客户端 127.0.0.1:6786 连接到:采集通讯服务器
+09:48:03	[BL]: 采集通讯服务器当前客户端的数量:1
+09:48:03	[AsyncComm]: Received[18]: 58
+09:48:03	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:48:03	[AsyncComm]: Received[18]: 59
+09:48:03	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:48:33	[AsyncComm]: Received[18]: 60
+09:48:38	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:48:38	[BL]: 采集通讯服务器当前客户端的数量:0
+09:48:38	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:48:53	[BL]: 客户端 127.0.0.1:6791 连接到:采集通讯服务器
+09:48:53	[BL]: 采集通讯服务器当前客户端的数量:1
+09:48:53	[AsyncComm]: Received[19]: 61
+09:48:53	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:48:53	[AsyncComm]: Received[19]: 62
+09:48:53	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:49:23	[AsyncComm]: Received[19]: 63
+09:49:53	[AsyncComm]: Received[19]: 64
+09:50:08	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:50:08	[BL]: 采集通讯服务器当前客户端的数量:0
+09:50:08	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:50:18	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:50:58	[BL]: 客户端 127.0.0.1:6804 连接到:采集通讯服务器
+09:50:58	[BL]: 采集通讯服务器当前客户端的数量:1
+09:50:58	[AsyncComm]: Received[20]: 65
+09:50:58	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:50:58	[AsyncComm]: Received[20]: 66
+09:50:58	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:51:28	[AsyncComm]: Received[20]: 67
+09:51:58	[AsyncComm]: Received[20]: 68
+09:52:08	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:52:08	[BL]: 采集通讯服务器当前客户端的数量:0
+09:52:08	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:55:13	[BL]: 客户端 127.0.0.1:7031 连接到:采集通讯服务器
+09:55:13	[BL]: 采集通讯服务器当前客户端的数量:1
+09:55:13	[AsyncComm]: Received[21]: 69
+09:55:13	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:55:13	[AsyncComm]: Received[21]: 70
+09:55:13	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:55:18	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+09:55:48	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:55:48	[BL]: 采集通讯服务器当前客户端的数量:0
+09:55:48	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+09:55:58	[BL]: 客户端 127.0.0.1:7053 连接到:采集通讯服务器
+09:55:58	[BL]: 采集通讯服务器当前客户端的数量:1
+09:55:58	[AsyncComm]: Received[22]: 71
+09:55:58	[BL]: 适配器: 中兴GPON 127.0.0.1 已登录到系统.
+09:56:03	[AsyncComm]: Received[22]: 72
+09:56:03	[BL]: 适配器: 中兴GPON 127.0.0.1 状态已更改为运行(空闲).
+09:56:28	[AsyncComm]: Received[22]: 73
+09:57:59	[BL]: 客户端: 远程主机强迫关闭了一个现有的连接。 已经从采集通讯服务器断开.
+09:57:59	[BL]: 采集通讯服务器当前客户端的数量:0
+09:57:59	[BL]: 适配器: 中兴GPON 127.0.0.1 已从系统注销.
+10:00:19	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:05:19	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:10:20	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:15:20	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:20:21	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:25:21	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:30:17	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:35:17	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:40:17	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:45:18	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:50:18	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+10:55:19	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:00:19	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:05:20	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:10:20	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:15:21	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:20:21	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:25:17	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:30:17	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:35:18	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:40:18	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:45:19	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630
+11:50:25	[BL]: System.Data.SqlClient.SqlException: 对象名 'sendorder_senddata' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2980
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2891
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2865
+   在 TK_AlarmManagement.AlarmManager.timerGetOrderInfo_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\code\AlarmManager.cs:行号 3630

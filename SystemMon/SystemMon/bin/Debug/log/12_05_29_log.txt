@@ -1,0 +1,30 @@
+14:48:42	System.Exception: 10.147.51.148:7000服务器通讯超时
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command, Int32 timeout) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 324
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 283
+   在 SystemMon.Form_Main.refreshSMCStatus() 位置 D:\ftth\new\代码\SystemMon\SystemMon\Form_Main.cs:行号 280
+14:48:42	无法获取服务管理中心信息...
+14:49:22	System.Exception: 10.147.51.148:7000服务器通讯超时
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command, Int32 timeout) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 324
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 283
+   在 SystemMon.Form_Main.refreshSMCStatus() 位置 D:\ftth\new\代码\SystemMon\SystemMon\Form_Main.cs:行号 280
+14:49:22	无法获取服务管理中心信息...
+14:50:02	System.Exception: 10.147.51.148:7000服务器通讯超时
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command, Int32 timeout) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 324
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 283
+   在 SystemMon.Form_Main.refreshSMCStatus() 位置 D:\ftth\new\代码\SystemMon\SystemMon\Form_Main.cs:行号 280
+14:50:02	无法获取服务管理中心信息...
+14:50:42	System.Exception: 10.147.51.148:7000服务器通讯超时
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command, Int32 timeout) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 324
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 283
+   在 SystemMon.Form_Main.refreshSMCStatus() 位置 D:\ftth\new\代码\SystemMon\SystemMon\Form_Main.cs:行号 280
+14:50:42	无法获取服务管理中心信息...
+14:51:22	System.Exception: 10.147.51.148:7000服务器通讯超时
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command, Int32 timeout) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 324
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 283
+   在 SystemMon.Form_Main.refreshSMCStatus() 位置 D:\ftth\new\代码\SystemMon\SystemMon\Form_Main.cs:行号 280
+14:51:22	无法获取服务管理中心信息...
+14:52:02	System.Exception: 10.147.51.148:7000服务器通讯超时
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command, Int32 timeout) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 324
+   在 TK_AlarmManagement.CommClient`1.SendCommand(ICommunicationMessage command) 位置 D:\项目\安徽\传输项目\Gpon自动激活\代码\ClientComm\ClientComm\CommClient.cs:行号 283
+   在 SystemMon.Form_Main.refreshSMCStatus() 位置 D:\ftth\new\代码\SystemMon\SystemMon\Form_Main.cs:行号 280
+14:52:02	无法获取服务管理中心信息...

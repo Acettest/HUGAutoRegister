@@ -1,0 +1,2 @@
+C:\Users\Administrator\Desktop\TKAutoLauncher\obj\Debug\TKAutoLauncher.exe
+C:\Users\Administrator\Desktop\TKAutoLauncher\obj\Debug\TKAutoLauncher.pdb

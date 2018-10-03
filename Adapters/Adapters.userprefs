@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RemotableWeb_Adapter/WlanTest_RSS.cs" ctype="Workbench">
+    <Files>
+      <File FileName="RemotableWeb_Adapter/Web_Adapter.cs" Line="546" Column="15" />
+      <File FileName="RemotableWeb_Adapter/WlanTest_RSS.cs" Line="143" Column="30" />
+      <File FileName="RemotableWeb_Adapter/Utilities.cs" Line="102" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="RemotableWeb_Adapter" expanded="True">
+            <Node name="WlanTest_RSS.cs" selected="True" />
+          </Node>
+          <Node name="WatchDog" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>m_PingList .Count </Value>
+          <Value>content_resp.IndexOf("login.html")</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/wlan/WLAN/WLAN/Adapters/RemotableWeb_Adapter/WlanTest_RSS.cs" line="45" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+</Properties>

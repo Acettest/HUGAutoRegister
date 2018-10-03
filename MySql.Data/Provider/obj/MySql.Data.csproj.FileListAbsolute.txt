@@ -1,0 +1,72 @@
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+G:\DT_CHIZHOU\NEW\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+G:\DT_CHIZHOU\NEW\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+G:\DT_CHIZHOU\NEW\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+G:\DT_CHIZHOU\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+G:\DT_CHIZHOU\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+G:\DT_CHIZHOU\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+G:\DT_CHIZHOU\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+G:\DT_CHIZHOU\NEW\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\WLAN\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\WLAN\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\WLAN\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+D:\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+D:\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\智能眼独立服务器版本(6-11)\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\智能眼独立服务器版本(6-11)\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\智能眼独立服务器版本(6-11)\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\智能眼独立服务器版本(6-11)\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+D:\智能眼独立服务器版本(6-11)\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\智能眼独立服务器版本(6-11)\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+D:\智能眼独立服务器版本(6-11)\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\智能眼独立服务器版本(6-11)\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+G:\智能眼独立服务器版本\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+G:\智能眼独立服务器版本\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+G:\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+G:\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+G:\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+G:\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+G:\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+G:\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.ReservedWords.txt
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.pdb

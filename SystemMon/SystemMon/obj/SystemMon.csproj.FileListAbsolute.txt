@@ -1,0 +1,184 @@
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\bin\Debug\SystemMon.exe
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\bin\Debug\SystemMon.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.Properties.Resources.resources
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.csproj.GenerateResource.Cache
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.exe
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.exe.licenses
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.Resources.Pear.isl
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.Form_Main.resources
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\bin\Debug\AdapterRemoting.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\bin\Debug\AdapterRemoting.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\bin\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\bin\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.Form_CurLog.resources
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.Form_Information.resources
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.Form_AllLog.resources
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\SystemMon\obj\Debug\SystemMon.Form_OMCList.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.exe
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.pdb
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\ResolveAssemblyReference.cache
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Resources.Pear.isl
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Skin.MyElectricBlue.isl
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Form_Main.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Properties.Resources.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Form_AllLog.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Form_CurLog.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Form_Information.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Form_OMCList.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Form_ServerStatus.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.Form_About.resources
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.csproj.GenerateResource.Cache
+D:\test_uniteNew\Adapters\SystemMon\obj\Debug\SystemMon.exe.licenses
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\SystemMon.exe
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\SystemMon.pdb
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\AdapterRemoting.dll
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\AlarmBase.dll
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\ClientComm.dll
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\WatchDog.dll
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\SQLHelper.dll
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\ClientComm.pdb
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\AdapterRemoting.pdb
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\WatchDog.pdb
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\AlarmBase.pdb
+D:\test_uniteNew\Adapters\SystemMon\bin\Debug\SQLHelper.pdb
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.exe
+D:\Work\无线\Adapters\SystemMon\bin\Debug\SystemMon.exe
+D:\Work\无线\Adapters\SystemMon\bin\Debug\SystemMon.pdb
+D:\Work\无线\Adapters\SystemMon\bin\Debug\ClientComm.dll
+D:\Work\无线\Adapters\SystemMon\bin\Debug\ClientComm.pdb
+D:\Work\无线\Adapters\SystemMon\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Resources.Pear.isl
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Skin.MyElectricBlue.isl
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Form_Main.resources
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Properties.Resources.resources
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Form_AllLog.resources
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Form_CurLog.resources
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Form_Information.resources
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Form_OMCList.resources
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Form_ServerStatus.resources
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.Form_About.resources
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.csproj.GenerateResource.Cache
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.exe.licenses
+D:\Work\无线\Adapters\SystemMon\obj\Debug\SystemMon.pdb
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.exe
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.pdb
+D:\Work\无线\SystemMon\SystemMon\bin\Debug\SystemMon.exe
+D:\Work\无线\SystemMon\SystemMon\bin\Debug\SystemMon.pdb
+D:\Work\无线\SystemMon\SystemMon\bin\Debug\ClientComm.dll
+D:\Work\无线\SystemMon\SystemMon\bin\Debug\ClientComm.pdb
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Resources.Pear.isl
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Skin.MyElectricBlue.isl
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Form_Main.resources
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Properties.Resources.resources
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Form_AllLog.resources
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Form_CurLog.resources
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Form_Information.resources
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Form_OMCList.resources
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Form_ServerStatus.resources
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.Form_About.resources
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.csproj.GenerateResource.Cache
+D:\Work\无线\SystemMon\SystemMon\obj\Debug\SystemMon.exe.licenses
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.exe
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.pdb
+D:\test_uniteNew\SystemMon\SystemMon\bin\Debug\SystemMon.exe
+D:\test_uniteNew\SystemMon\SystemMon\bin\Debug\SystemMon.pdb
+D:\test_uniteNew\SystemMon\SystemMon\bin\Debug\ClientComm.dll
+D:\test_uniteNew\SystemMon\SystemMon\bin\Debug\ClientComm.pdb
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\ResolveAssemblyReference.cache
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Resources.Pear.isl
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Skin.MyElectricBlue.isl
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_Main.resources
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Properties.Resources.resources
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_AllLog.resources
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_CurLog.resources
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_Information.resources
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_OMCList.resources
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_ServerStatus.resources
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_About.resources
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.csproj.GenerateResource.Cache
+D:\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.exe.licenses
+D:\test_uniteNew\SystemMon\SystemMon\bin\Debug\MD5Encrypt.dll
+D:\test_uniteNew\SystemMon\SystemMon\bin\Debug\MD5Encrypt.pdb
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Resources.Pear.isl
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Skin.MyElectricBlue.isl
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_Main.resources
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Properties.Resources.resources
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_AllLog.resources
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_CurLog.resources
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_Information.resources
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_OMCList.resources
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_ServerStatus.resources
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.Form_About.resources
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.csproj.GenerateResource.Cache
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.exe
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\obj\Debug\SystemMon.pdb
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\SystemMon.exe
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\SystemMon.pdb
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\ClientComm.dll
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\DefLib.dll
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\MD5Encrypt.dll
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\C5.dll
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\ClientComm.pdb
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\DefLib.pdb
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\MD5Encrypt.pdb
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\MD5Encrypt.xml
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\C5.pdb
+C:\Users\figo\Desktop\test_uniteNew\SystemMon\SystemMon\bin\Debug\C5.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.exe
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.pdb
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\ResolveAssemblyReference.cache
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Resources.Pear.isl
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Skin.MyElectricBlue.isl
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Form_Main.resources
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Properties.Resources.resources
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Form_AllLog.resources
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Form_CurLog.resources
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Form_Information.resources
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Form_OMCList.resources
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Form_ServerStatus.resources
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.Form_About.resources
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\obj\Debug\SystemMon.csproj.GenerateResource.Cache
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\SystemMon.exe
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\SystemMon.pdb
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\ClientComm.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\DefLib.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\MD5Encrypt.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\C5.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\ClientComm.pdb
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\MD5Encrypt.pdb
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\MD5Encrypt.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\C5.pdb
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\C5.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\DefLib.pdb
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Excel.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Shared.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.AppStylistSupport.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.Misc.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinExplorerBar.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.v8.1.dll
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinEditors.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinStatusBar.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinToolbars.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Shared.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinTabControl.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinListView.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinExplorerBar.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Excel.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.Misc.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinGrid.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinTree.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1.xml
+D:\ftth\SMCandDaemon\SMCandDaemon\SystemMon\SystemMon\bin\Debug\Infragistics2.Win.AppStylistSupport.v8.1.xml

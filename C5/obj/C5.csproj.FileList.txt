@@ -1,0 +1,8 @@
+obj\Debug\C5.dll
+obj\Debug\C5.pdb
+bin\Debug\C5.dll
+bin\Debug\C5.pdb
+bin\Debug\c5.xml
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\System.Data.dll
+bin\Debug\zh-CHS\System.Data.resources.dll

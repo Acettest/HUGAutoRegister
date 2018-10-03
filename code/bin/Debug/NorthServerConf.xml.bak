@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="NorthServerInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="ip" type="xs:string" minOccurs="0" />
+                <xs:element name="port" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <NorthServerInfo>
+    <name>TK</name>
+    <ip>192.168.1.110</ip>
+    <port>9005</port>
+  </NorthServerInfo>
+  <NorthServerInfo>
+    <name>扬州</name>
+    <ip>218.205.30.31</ip>
+    <port>9005</port>
+  </NorthServerInfo>
+</NewDataSet>

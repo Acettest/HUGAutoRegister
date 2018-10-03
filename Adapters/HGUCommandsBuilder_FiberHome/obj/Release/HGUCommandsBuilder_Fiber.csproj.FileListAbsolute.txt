@@ -1,0 +1,10 @@
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\bin\Release\HGUCommandsBuilder_Fiber.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\bin\Release\HGUCommandsBuilder_Fiber.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\bin\Release\HGUCommandsBuilder.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\bin\Release\HGUIdl.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\bin\Release\HGUIdl.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\bin\Release\HGUCommandsBuilder.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\obj\Release\HGUCommandsBuilder_Fiber.csproj.CoreCompileInputs.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\obj\Release\HGUCommandsBuilder_Fiber.csproj.CopyComplete
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\obj\Release\HGUCommandsBuilder_Fiber.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\Adapters\HGUCommandsBuilder_FiberHome\obj\Release\HGUCommandsBuilder_Fiber.pdb

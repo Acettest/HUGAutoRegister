@@ -1,0 +1,69 @@
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Debug\DefLib.pdb
+E:\Code Information\宽带项目\DefLib\bin\x86\Debug\DefLib.dll
+E:\Code Information\宽带项目\DefLib\bin\x86\Debug\DefLib.pdb
+E:\Code Information\宽带项目\DefLib\bin\x86\Debug\C5.dll
+E:\Code Information\宽带项目\DefLib\bin\x86\Debug\C5.pdb
+E:\Code Information\宽带项目\DefLib\bin\x86\Debug\C5.xml
+E:\Code Information\宽带项目\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Code Information\宽带项目\DefLib\obj\x86\Debug\DefLib.dll
+E:\Code Information\宽带项目\DefLib\obj\x86\Debug\DefLib.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\DefLib\bin\x86\Debug\DefLib.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\DefLib\bin\x86\Debug\DefLib.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\DefLib\bin\x86\Debug\C5.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\DefLib\bin\x86\Debug\C5.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\DefLib\bin\x86\Debug\C5.xml
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\DefLib\obj\x86\Debug\DefLib.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\DefLib\obj\x86\Debug\DefLib.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\DefLib\bin\x86\Debug\DefLib.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\DefLib\bin\x86\Debug\DefLib.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\DefLib\bin\x86\Debug\C5.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\DefLib\bin\x86\Debug\C5.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\DefLib\bin\x86\Debug\C5.xml
+D:\项目\安徽\传输项目\Gpon自动激活\代码\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\项目\安徽\传输项目\Gpon自动激活\代码\DefLib\obj\x86\Debug\DefLib.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\DefLib\obj\x86\Debug\DefLib.pdb
+D:\ftth\代码\DefLib\bin\x86\Debug\DefLib.dll
+D:\ftth\代码\DefLib\bin\x86\Debug\DefLib.pdb
+D:\ftth\代码\DefLib\bin\x86\Debug\C5.dll
+D:\ftth\代码\DefLib\bin\x86\Debug\C5.pdb
+D:\ftth\代码\DefLib\bin\x86\Debug\C5.xml
+D:\ftth\代码\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ftth\代码\DefLib\obj\x86\Debug\DefLib.dll
+D:\ftth\代码\DefLib\obj\x86\Debug\DefLib.pdb
+D:\ftth\new\代码\DefLib\bin\x86\Debug\DefLib.dll
+D:\ftth\new\代码\DefLib\bin\x86\Debug\DefLib.pdb
+D:\ftth\new\代码\DefLib\bin\x86\Debug\C5.dll
+D:\ftth\new\代码\DefLib\bin\x86\Debug\C5.pdb
+D:\ftth\new\代码\DefLib\bin\x86\Debug\C5.xml
+D:\ftth\new\代码\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ftth\new\代码\DefLib\obj\x86\Debug\DefLib.dll
+D:\ftth\new\代码\DefLib\obj\x86\Debug\DefLib.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\DefLib\bin\x86\Debug\DefLib.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\DefLib\bin\x86\Debug\DefLib.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\DefLib\bin\x86\Debug\C5.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\DefLib\bin\x86\Debug\C5.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\DefLib\bin\x86\Debug\C5.xml
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\DefLib\obj\x86\Debug\DefLib.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\DefLib\obj\x86\Debug\DefLib.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\DefLib\obj\x86\Debug\DefLib.csprojResolveAssemblyReference.cache
+H:\安徽项目\安徽传输项目\一网通\YWT\DefLib\bin\x86\Debug\DefLib.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\DefLib\bin\x86\Debug\DefLib.pdb
+H:\安徽项目\安徽传输项目\一网通\YWT\DefLib\bin\x86\Debug\C5.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\DefLib\bin\x86\Debug\C5.pdb
+H:\安徽项目\安徽传输项目\一网通\YWT\DefLib\bin\x86\Debug\C5.xml
+H:\安徽项目\安徽传输项目\一网通\YWT\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\安徽项目\安徽传输项目\一网通\YWT\DefLib\obj\x86\Debug\DefLib.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\DefLib\obj\x86\Debug\DefLib.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\DefLib\bin\x86\Debug\DefLib.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\DefLib\bin\x86\Debug\DefLib.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\DefLib\bin\x86\Debug\C5.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\DefLib\bin\x86\Debug\C5.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\DefLib\bin\x86\Debug\C5.xml
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\DefLib\obj\x86\Debug\DefLib.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\DefLib\obj\x86\Debug\DefLib.pdb

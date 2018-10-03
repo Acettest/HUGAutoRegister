@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9BC0162-6465-42BB-A683-33256BA15BD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SystemMon</RootNamespace>
+    <AssemblyName>SystemMon</AssemblyName>
+    <ApplicationIcon>Resources\Get Info.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MD5Encrypt, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MD5加密\MD5Encrypt\bin\Debug\MD5Encrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Infragistics2.Excel.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\Common\Infragistics2.Excel.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Shared.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Shared.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.AppStylistSupport.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.AppStylistSupport.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.Misc.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.Misc.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinEditors.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinExplorerBar.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinExplorerBar.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinGrid.ExcelExport.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinGrid.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinGrid.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinListView.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinListView.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinStatusBar.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinStatusBar.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTabControl.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinTabControl.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinToolbars.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinToolbars.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.UltraWinTree.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.UltraWinTree.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files\Infragistics\NetAdvantage for .NET 2008 Vol. 1 CLR 2.0\windows forms\bin\Infragistics2.Win.v8.1.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_About.designer.cs">
+      <DependentUpon>Form_About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AllLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AllLog.Designer.cs">
+      <DependentUpon>Form_AllLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CurLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CurLog.Designer.cs">
+      <DependentUpon>Form_CurLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Information.Designer.cs">
+      <DependentUpon>Form_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_OMCList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_OMCList.Designer.cs">
+      <DependentUpon>Form_OMCList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ServerStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ServerStatus.Designer.cs">
+      <DependentUpon>Form_ServerStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form_Main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download Arrow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Get Info.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run_enabled.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form_AllLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_AllLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CurLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_CurLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Information.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_OMCList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_OMCList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ServerStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form_ServerStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Pear.isl" />
+    <None Include="Resources\stop_enabled.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orion %28Universal%29 V1b Icon 153.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ClientComm\ClientComm\ClientComm.csproj">
+      <Project>{0CD20DD4-2E2C-4F7C-9435-744417990E8E}</Project>
+      <Name>ClientComm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log Folder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Log Folder 2.ico" />
+    <EmbeddedResource Include="Form_About.resx">
+      <DependentUpon>Form_About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Skin\MyElectricBlue.isl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

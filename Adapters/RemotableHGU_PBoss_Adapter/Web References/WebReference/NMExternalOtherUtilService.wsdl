@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:axis2="http://ws.gxlu.com" xmlns:ns="http://ws.gxlu.com/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://ws.gxlu.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>NMExternalOtherUtilService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://ws.gxlu.com/xsd">
+      <xs:element name="syncGISONUInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="onuname" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="sn" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="onu" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="model" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="portid" type="xs:long" />
+            <xs:element minOccurs="0" name="tempOnu" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncGISONUInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="archiveResource">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="requestXML" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="archiveResourceResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="drawbackResourceConfigGroup">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="requestXML" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="drawbackResourceConfigGroupResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="feedBackResult">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="feedBackResultResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getOrderInfoGroupWebGis">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="requestXML" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="getOrderInfoGroupWebGisResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryAccessMode">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryAccessModeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryAccount">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryAccountResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryActLanPortInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryActLanPortInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryCommunityFaultStatus">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryCommunityFaultStatusResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryGPONDeviceInfo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryGPONDeviceInfoResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryInternetByCustomerCode">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="queryInternetByCustomerCodeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="querySiteNameByPF">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="requestXML" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="querySiteNameByPFResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="qureyCountyFault">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="qureyCountyFaultResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="returnMakeData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="returnMakeDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncTTAddress">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="request" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncTTAddressResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="unifiedLoginAuthentication">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="requestXML" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="unifiedLoginAuthenticationResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncCustomerAndResourceInfo4ZiGuan">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="productInstanceCode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="productType" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="operation" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="syncCustomerInfoForInterNet">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="productInstanceCode" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="productType" nillable="true" type="xs:string" />
+            <xs:element minOccurs="0" name="operation" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="returnMakeDataRequest">
+    <wsdl:part name="parameters" element="ns:returnMakeData" />
+  </wsdl:message>
+  <wsdl:message name="returnMakeDataResponse">
+    <wsdl:part name="parameters" element="ns:returnMakeDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="drawbackResourceConfigGroupRequest">
+    <wsdl:part name="parameters" element="ns:drawbackResourceConfigGroup" />
+  </wsdl:message>
+  <wsdl:message name="drawbackResourceConfigGroupResponse">
+    <wsdl:part name="parameters" element="ns:drawbackResourceConfigGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncGISONUInfoRequest">
+    <wsdl:part name="parameters" element="ns:syncGISONUInfo" />
+  </wsdl:message>
+  <wsdl:message name="syncGISONUInfoResponse">
+    <wsdl:part name="parameters" element="ns:syncGISONUInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCustomerAndResourceInfo4ZiGuanRequest">
+    <wsdl:part name="parameters" element="ns:syncCustomerAndResourceInfo4ZiGuan" />
+  </wsdl:message>
+  <wsdl:message name="queryInternetByCustomerCodeRequest">
+    <wsdl:part name="parameters" element="ns:queryInternetByCustomerCode" />
+  </wsdl:message>
+  <wsdl:message name="queryInternetByCustomerCodeResponse">
+    <wsdl:part name="parameters" element="ns:queryInternetByCustomerCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="qureyCountyFaultRequest">
+    <wsdl:part name="parameters" element="ns:qureyCountyFault" />
+  </wsdl:message>
+  <wsdl:message name="qureyCountyFaultResponse">
+    <wsdl:part name="parameters" element="ns:qureyCountyFaultResponse" />
+  </wsdl:message>
+  <wsdl:message name="getOrderInfoGroupWebGisRequest">
+    <wsdl:part name="parameters" element="ns:getOrderInfoGroupWebGis" />
+  </wsdl:message>
+  <wsdl:message name="getOrderInfoGroupWebGisResponse">
+    <wsdl:part name="parameters" element="ns:getOrderInfoGroupWebGisResponse" />
+  </wsdl:message>
+  <wsdl:message name="unifiedLoginAuthenticationRequest">
+    <wsdl:part name="parameters" element="ns:unifiedLoginAuthentication" />
+  </wsdl:message>
+  <wsdl:message name="unifiedLoginAuthenticationResponse">
+    <wsdl:part name="parameters" element="ns:unifiedLoginAuthenticationResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryGPONDeviceInfoRequest">
+    <wsdl:part name="parameters" element="ns:queryGPONDeviceInfo" />
+  </wsdl:message>
+  <wsdl:message name="queryGPONDeviceInfoResponse">
+    <wsdl:part name="parameters" element="ns:queryGPONDeviceInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryActLanPortInfoRequest">
+    <wsdl:part name="parameters" element="ns:queryActLanPortInfo" />
+  </wsdl:message>
+  <wsdl:message name="queryActLanPortInfoResponse">
+    <wsdl:part name="parameters" element="ns:queryActLanPortInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryAccessModeRequest">
+    <wsdl:part name="parameters" element="ns:queryAccessMode" />
+  </wsdl:message>
+  <wsdl:message name="queryAccessModeResponse">
+    <wsdl:part name="parameters" element="ns:queryAccessModeResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncCustomerInfoForInterNetRequest">
+    <wsdl:part name="parameters" element="ns:syncCustomerInfoForInterNet" />
+  </wsdl:message>
+  <wsdl:message name="querySiteNameByPFRequest">
+    <wsdl:part name="parameters" element="ns:querySiteNameByPF" />
+  </wsdl:message>
+  <wsdl:message name="querySiteNameByPFResponse">
+    <wsdl:part name="parameters" element="ns:querySiteNameByPFResponse" />
+  </wsdl:message>
+  <wsdl:message name="archiveResourceRequest">
+    <wsdl:part name="parameters" element="ns:archiveResource" />
+  </wsdl:message>
+  <wsdl:message name="archiveResourceResponse">
+    <wsdl:part name="parameters" element="ns:archiveResourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="feedBackResultRequest">
+    <wsdl:part name="parameters" element="ns:feedBackResult" />
+  </wsdl:message>
+  <wsdl:message name="feedBackResultResponse">
+    <wsdl:part name="parameters" element="ns:feedBackResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="syncTTAddressRequest">
+    <wsdl:part name="parameters" element="ns:syncTTAddress" />
+  </wsdl:message>
+  <wsdl:message name="syncTTAddressResponse">
+    <wsdl:part name="parameters" element="ns:syncTTAddressResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryCommunityFaultStatusRequest">
+    <wsdl:part name="parameters" element="ns:queryCommunityFaultStatus" />
+  </wsdl:message>
+  <wsdl:message name="queryCommunityFaultStatusResponse">
+    <wsdl:part name="parameters" element="ns:queryCommunityFaultStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="queryAccountRequest">
+    <wsdl:part name="parameters" element="ns:queryAccount" />
+  </wsdl:message>
+  <wsdl:message name="queryAccountResponse">
+    <wsdl:part name="parameters" element="ns:queryAccountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="NMExternalOtherUtilServicePortType">
+    <wsdl:operation name="returnMakeData">
+      <wsdl:input wsaw:Action="urn:returnMakeData" message="axis2:returnMakeDataRequest" />
+      <wsdl:output wsaw:Action="urn:returnMakeDataResponse" message="axis2:returnMakeDataResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="drawbackResourceConfigGroup">
+      <wsdl:input wsaw:Action="urn:drawbackResourceConfigGroup" message="axis2:drawbackResourceConfigGroupRequest" />
+      <wsdl:output wsaw:Action="urn:drawbackResourceConfigGroupResponse" message="axis2:drawbackResourceConfigGroupResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="syncGISONUInfo">
+      <wsdl:input wsaw:Action="urn:syncGISONUInfo" message="axis2:syncGISONUInfoRequest" />
+      <wsdl:output wsaw:Action="urn:syncGISONUInfoResponse" message="axis2:syncGISONUInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerAndResourceInfo4ZiGuan">
+      <wsdl:input wsaw:Action="urn:syncCustomerAndResourceInfo4ZiGuan" message="axis2:syncCustomerAndResourceInfo4ZiGuanRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="queryInternetByCustomerCode">
+      <wsdl:input wsaw:Action="urn:queryInternetByCustomerCode" message="axis2:queryInternetByCustomerCodeRequest" />
+      <wsdl:output wsaw:Action="urn:queryInternetByCustomerCodeResponse" message="axis2:queryInternetByCustomerCodeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="qureyCountyFault">
+      <wsdl:input wsaw:Action="urn:qureyCountyFault" message="axis2:qureyCountyFaultRequest" />
+      <wsdl:output wsaw:Action="urn:qureyCountyFaultResponse" message="axis2:qureyCountyFaultResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getOrderInfoGroupWebGis">
+      <wsdl:input wsaw:Action="urn:getOrderInfoGroupWebGis" message="axis2:getOrderInfoGroupWebGisRequest" />
+      <wsdl:output wsaw:Action="urn:getOrderInfoGroupWebGisResponse" message="axis2:getOrderInfoGroupWebGisResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="unifiedLoginAuthentication">
+      <wsdl:input wsaw:Action="urn:unifiedLoginAuthentication" message="axis2:unifiedLoginAuthenticationRequest" />
+      <wsdl:output wsaw:Action="urn:unifiedLoginAuthenticationResponse" message="axis2:unifiedLoginAuthenticationResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryGPONDeviceInfo">
+      <wsdl:input wsaw:Action="urn:queryGPONDeviceInfo" message="axis2:queryGPONDeviceInfoRequest" />
+      <wsdl:output wsaw:Action="urn:queryGPONDeviceInfoResponse" message="axis2:queryGPONDeviceInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryActLanPortInfo">
+      <wsdl:input wsaw:Action="urn:queryActLanPortInfo" message="axis2:queryActLanPortInfoRequest" />
+      <wsdl:output wsaw:Action="urn:queryActLanPortInfoResponse" message="axis2:queryActLanPortInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryAccessMode">
+      <wsdl:input wsaw:Action="urn:queryAccessMode" message="axis2:queryAccessModeRequest" />
+      <wsdl:output wsaw:Action="urn:queryAccessModeResponse" message="axis2:queryAccessModeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerInfoForInterNet">
+      <wsdl:input wsaw:Action="urn:syncCustomerInfoForInterNet" message="axis2:syncCustomerInfoForInterNetRequest" />
+    </wsdl:operation>
+    <wsdl:operation name="querySiteNameByPF">
+      <wsdl:input wsaw:Action="urn:querySiteNameByPF" message="axis2:querySiteNameByPFRequest" />
+      <wsdl:output wsaw:Action="urn:querySiteNameByPFResponse" message="axis2:querySiteNameByPFResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="archiveResource">
+      <wsdl:input wsaw:Action="urn:archiveResource" message="axis2:archiveResourceRequest" />
+      <wsdl:output wsaw:Action="urn:archiveResourceResponse" message="axis2:archiveResourceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="feedBackResult">
+      <wsdl:input wsaw:Action="urn:feedBackResult" message="axis2:feedBackResultRequest" />
+      <wsdl:output wsaw:Action="urn:feedBackResultResponse" message="axis2:feedBackResultResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="syncTTAddress">
+      <wsdl:input wsaw:Action="urn:syncTTAddress" message="axis2:syncTTAddressRequest" />
+      <wsdl:output wsaw:Action="urn:syncTTAddressResponse" message="axis2:syncTTAddressResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryCommunityFaultStatus">
+      <wsdl:input wsaw:Action="urn:queryCommunityFaultStatus" message="axis2:queryCommunityFaultStatusRequest" />
+      <wsdl:output wsaw:Action="urn:queryCommunityFaultStatusResponse" message="axis2:queryCommunityFaultStatusResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="queryAccount">
+      <wsdl:input wsaw:Action="urn:queryAccount" message="axis2:queryAccountRequest" />
+      <wsdl:output wsaw:Action="urn:queryAccountResponse" message="axis2:queryAccountResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NMExternalOtherUtilServiceSoap11Binding" type="axis2:NMExternalOtherUtilServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="returnMakeData">
+      <soap:operation soapAction="urn:returnMakeData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncGISONUInfo">
+      <soap:operation soapAction="urn:syncGISONUInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="drawbackResourceConfigGroup">
+      <soap:operation soapAction="urn:drawbackResourceConfigGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryInternetByCustomerCode">
+      <soap:operation soapAction="urn:queryInternetByCustomerCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerAndResourceInfo4ZiGuan">
+      <soap:operation soapAction="urn:syncCustomerAndResourceInfo4ZiGuan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getOrderInfoGroupWebGis">
+      <soap:operation soapAction="urn:getOrderInfoGroupWebGis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="qureyCountyFault">
+      <soap:operation soapAction="urn:qureyCountyFault" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryGPONDeviceInfo">
+      <soap:operation soapAction="urn:queryGPONDeviceInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="unifiedLoginAuthentication">
+      <soap:operation soapAction="urn:unifiedLoginAuthentication" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryActLanPortInfo">
+      <soap:operation soapAction="urn:queryActLanPortInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryAccessMode">
+      <soap:operation soapAction="urn:queryAccessMode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerInfoForInterNet">
+      <soap:operation soapAction="urn:syncCustomerInfoForInterNet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="querySiteNameByPF">
+      <soap:operation soapAction="urn:querySiteNameByPF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="feedBackResult">
+      <soap:operation soapAction="urn:feedBackResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="archiveResource">
+      <soap:operation soapAction="urn:archiveResource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncTTAddress">
+      <soap:operation soapAction="urn:syncTTAddress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryCommunityFaultStatus">
+      <soap:operation soapAction="urn:queryCommunityFaultStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryAccount">
+      <soap:operation soapAction="urn:queryAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NMExternalOtherUtilServiceSoap12Binding" type="axis2:NMExternalOtherUtilServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="returnMakeData">
+      <soap12:operation soapAction="urn:returnMakeData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncGISONUInfo">
+      <soap12:operation soapAction="urn:syncGISONUInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="drawbackResourceConfigGroup">
+      <soap12:operation soapAction="urn:drawbackResourceConfigGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryInternetByCustomerCode">
+      <soap12:operation soapAction="urn:queryInternetByCustomerCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerAndResourceInfo4ZiGuan">
+      <soap12:operation soapAction="urn:syncCustomerAndResourceInfo4ZiGuan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getOrderInfoGroupWebGis">
+      <soap12:operation soapAction="urn:getOrderInfoGroupWebGis" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="qureyCountyFault">
+      <soap12:operation soapAction="urn:qureyCountyFault" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryGPONDeviceInfo">
+      <soap12:operation soapAction="urn:queryGPONDeviceInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="unifiedLoginAuthentication">
+      <soap12:operation soapAction="urn:unifiedLoginAuthentication" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryActLanPortInfo">
+      <soap12:operation soapAction="urn:queryActLanPortInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryAccessMode">
+      <soap12:operation soapAction="urn:queryAccessMode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerInfoForInterNet">
+      <soap12:operation soapAction="urn:syncCustomerInfoForInterNet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="querySiteNameByPF">
+      <soap12:operation soapAction="urn:querySiteNameByPF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="feedBackResult">
+      <soap12:operation soapAction="urn:feedBackResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="archiveResource">
+      <soap12:operation soapAction="urn:archiveResource" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncTTAddress">
+      <soap12:operation soapAction="urn:syncTTAddress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryCommunityFaultStatus">
+      <soap12:operation soapAction="urn:queryCommunityFaultStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryAccount">
+      <soap12:operation soapAction="urn:queryAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NMExternalOtherUtilServiceHttpBinding" type="axis2:NMExternalOtherUtilServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="returnMakeData">
+      <http:operation location="NMExternalOtherUtilService/returnMakeData" />
+      <wsdl:input>
+        <mime:content part="returnMakeData" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="returnMakeData" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncGISONUInfo">
+      <http:operation location="NMExternalOtherUtilService/syncGISONUInfo" />
+      <wsdl:input>
+        <mime:content part="syncGISONUInfo" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="syncGISONUInfo" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="drawbackResourceConfigGroup">
+      <http:operation location="NMExternalOtherUtilService/drawbackResourceConfigGroup" />
+      <wsdl:input>
+        <mime:content part="drawbackResourceConfigGroup" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="drawbackResourceConfigGroup" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryInternetByCustomerCode">
+      <http:operation location="NMExternalOtherUtilService/queryInternetByCustomerCode" />
+      <wsdl:input>
+        <mime:content part="queryInternetByCustomerCode" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="queryInternetByCustomerCode" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerAndResourceInfo4ZiGuan">
+      <http:operation location="NMExternalOtherUtilService/syncCustomerAndResourceInfo4ZiGuan" />
+      <wsdl:input>
+        <mime:content part="syncCustomerAndResourceInfo4ZiGuan" type="text/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="getOrderInfoGroupWebGis">
+      <http:operation location="NMExternalOtherUtilService/getOrderInfoGroupWebGis" />
+      <wsdl:input>
+        <mime:content part="getOrderInfoGroupWebGis" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="getOrderInfoGroupWebGis" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="qureyCountyFault">
+      <http:operation location="NMExternalOtherUtilService/qureyCountyFault" />
+      <wsdl:input>
+        <mime:content part="qureyCountyFault" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="qureyCountyFault" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryGPONDeviceInfo">
+      <http:operation location="NMExternalOtherUtilService/queryGPONDeviceInfo" />
+      <wsdl:input>
+        <mime:content part="queryGPONDeviceInfo" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="queryGPONDeviceInfo" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="unifiedLoginAuthentication">
+      <http:operation location="NMExternalOtherUtilService/unifiedLoginAuthentication" />
+      <wsdl:input>
+        <mime:content part="unifiedLoginAuthentication" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="unifiedLoginAuthentication" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryActLanPortInfo">
+      <http:operation location="NMExternalOtherUtilService/queryActLanPortInfo" />
+      <wsdl:input>
+        <mime:content part="queryActLanPortInfo" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="queryActLanPortInfo" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryAccessMode">
+      <http:operation location="NMExternalOtherUtilService/queryAccessMode" />
+      <wsdl:input>
+        <mime:content part="queryAccessMode" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="queryAccessMode" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncCustomerInfoForInterNet">
+      <http:operation location="NMExternalOtherUtilService/syncCustomerInfoForInterNet" />
+      <wsdl:input>
+        <mime:content part="syncCustomerInfoForInterNet" type="text/xml" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="querySiteNameByPF">
+      <http:operation location="NMExternalOtherUtilService/querySiteNameByPF" />
+      <wsdl:input>
+        <mime:content part="querySiteNameByPF" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="querySiteNameByPF" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="feedBackResult">
+      <http:operation location="NMExternalOtherUtilService/feedBackResult" />
+      <wsdl:input>
+        <mime:content part="feedBackResult" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="feedBackResult" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="archiveResource">
+      <http:operation location="NMExternalOtherUtilService/archiveResource" />
+      <wsdl:input>
+        <mime:content part="archiveResource" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="archiveResource" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="syncTTAddress">
+      <http:operation location="NMExternalOtherUtilService/syncTTAddress" />
+      <wsdl:input>
+        <mime:content part="syncTTAddress" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="syncTTAddress" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryCommunityFaultStatus">
+      <http:operation location="NMExternalOtherUtilService/queryCommunityFaultStatus" />
+      <wsdl:input>
+        <mime:content part="queryCommunityFaultStatus" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="queryCommunityFaultStatus" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="queryAccount">
+      <http:operation location="NMExternalOtherUtilService/queryAccount" />
+      <wsdl:input>
+        <mime:content part="queryAccount" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="queryAccount" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NMExternalOtherUtilService">
+    <wsdl:port name="NMExternalOtherUtilServiceHttpSoap11Endpoint" binding="axis2:NMExternalOtherUtilServiceSoap11Binding">
+      <soap:address location="http://192.168.1.12:7001/ngrm/services/NMExternalOtherUtilService.NMExternalOtherUtilServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="NMExternalOtherUtilServiceHttpSoap12Endpoint" binding="axis2:NMExternalOtherUtilServiceSoap12Binding">
+      <soap12:address location="http://192.168.1.12:7001/ngrm/services/NMExternalOtherUtilService.NMExternalOtherUtilServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="NMExternalOtherUtilServiceHttpEndpoint" binding="axis2:NMExternalOtherUtilServiceHttpBinding">
+      <http:address location="http://192.168.1.12:7001/ngrm/services/NMExternalOtherUtilService.NMExternalOtherUtilServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

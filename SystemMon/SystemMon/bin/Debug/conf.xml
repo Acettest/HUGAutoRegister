@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="SMCServer">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="servername" type="xs:string" minOccurs="0" />
+                <xs:element name="executepath" type="xs:string" minOccurs="0" />
+                <xs:element name="ip" type="xs:string" minOccurs="0" />
+                <xs:element name="port" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="SmcDaemonServer">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="servername" type="xs:string" minOccurs="0" />
+                <xs:element name="executepath" type="xs:string" minOccurs="0" />
+                <xs:element name="ip" type="xs:string" minOccurs="0" />
+                <xs:element name="port" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Parameters">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="paraname" type="xs:string" minOccurs="0" />
+                <xs:element name="value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SMCServer>
+    <servername>8D-3F-DD-80-31-3D-D3-D5-A0-57-6E-7A-3A-44-D7-7F-0F-C6-D8-32-6A-4C-E2-1C</servername>
+    <ip>F9-29-9B-FF-89-C8-AA-A8-A1-AE-F6-BF-77-61-8C-35</ip>
+    <port>C3-99-EA-97-85-BD-FB-BD</port>
+  </SMCServer>
+  <SmcDaemonServer>
+    <servername>16-CA-4A-6B-F0-10-85-D2-9F-F6-8B-19-45-DE-9E-8B</servername>
+    <executepath>77-6B-3A-E4-E9-A5-74-4B-25-2E-AE-ED-E5-E3-8E-AE-4D-F2-A9-8B-FB-6F-94-E0-D5-A8-1D-BF-66-FB-C4-DC-DC-97-00-40-25-CB-D8-3B-FD-70-90-FF-21-33-2C-01-16-DE-77-AB-9F-FE-2D-42-6C-42-82-4F-6A-4D-AB-C6-A2-87-4D-21-0F-08-28-8F-D1-56-6F-56-7C-41-CA-85-03-6C-4B-77-D9-96-6F-84-2A-E0-71-7B-F4-67-0B-11-56-7E-78-98-61-DC-7E-48-80-3C-F3-D4-73-69-63-3E-C4-E3-BD-83-CA-49-52-C3-CD-1F-D2-16-64-64-33-5B-99-4B-93-33-CE-FA-F6-E6</executepath>
+    <ip>F9-29-9B-FF-89-C8-AA-A8-A1-AE-F6-BF-77-61-8C-35</ip>
+    <port>B8-CA-B7-D7-F5-DA-F1-33</port>
+  </SmcDaemonServer>
+  <Parameters>
+    <paraname>43-AA-DB-98-63-07-C3-33-12-8C-F3-1E-40-44-AD-5F-75-D8-5C-E5-13-06-CA-A9</paraname>
+    <value>FC-C7-38-85-60-B6-3C-3F</value>
+  </Parameters>
+  <Parameters>
+    <paraname>2E-29-4F-19-C6-60-EE-82-FA-FD-22-79-10-AF-86-14</paraname>
+    <value>24-01-52-25-6D-8A-80-D1</value>
+  </Parameters>
+</NewDataSet>

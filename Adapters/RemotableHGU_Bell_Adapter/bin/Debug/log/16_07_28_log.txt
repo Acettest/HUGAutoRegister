@@ -1,0 +1,201 @@
+09:38:10 监控服务器 started at 0.0.0.0:14052
+09:38:10 监控服务器已启动,最大客户端数量:5
+09:38:10 [AdapterController]: 初始化完毕.
+09:38:10 [AdapterController]: 正在启动...
+09:38:11 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:38:11 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:38:11 [AsyncComm]: Received[1]: 1
+09:38:12 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:38:12 [Adapter]: 贝尔GPON采集服务已经启动.
+09:38:12 [Adapter]: 尝试连接OMC
+09:38:12 [Adapter]: 尝试登录
+09:38:12 [Adapter]: 尝试连接OMC
+09:38:12 [Adapter]: 尝试登录
+09:38:12 [Adapter]: 登录成功
+09:38:12 [Adapter]: 登录成功
+09:38:12 [Adapter]: UnlockDispatch
+09:38:12 [Adapter]: UnlockDispatch
+09:38:22 [Adapter]: Thread 0 get task W4040404040404040404040404040
+09:38:22 [Adapter]: ExecuteTask:W4040404040404040404040404040
+09:38:40 [Adapter]: CheckTask:W4040404040404040404040404040
+09:38:47 [AsyncComm]: Received[1]: 2
+09:38:47 [Adapter]: AdditionalRules:W4040404040404040404040404040
+09:38:47 [Adapter]: RollbackTask:W4040404040404040404040404040
+09:38:47 [Adapter]: W4040404040404040404040404040
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 YWT.CommandsBuilder.BellCommandsBuilder.ParseErrorDesc(Dictionary`2 additionalInfo, String command) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTCommandsBuilder_Bell\BellCommandsBuilder.cs:行号 32
+   在 YWT.Idl.CommandResponseMsg.ParseErrorDesc(ICommandsBuilder builder, String command) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\YWTIdl\CommandRespondMsg.cs:行号 176
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteDelBroadband(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 288
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 579
+09:38:47 [Adapter]: AdditionalRules:W4040404040404040404040404040
+09:41:41 监控服务器 started at 0.0.0.0:14052
+09:41:42 监控服务器已启动,最大客户端数量:5
+09:41:42 [AdapterController]: 初始化完毕.
+09:41:42 [AdapterController]: 正在启动...
+09:41:43 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:41:43 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:41:44 [AsyncComm]: Received[1]: 1
+09:41:44 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:41:44 [Adapter]: 贝尔GPON采集服务已经启动.
+09:41:44 [Adapter]: 尝试连接OMC
+09:41:44 [Adapter]: 尝试登录
+09:41:44 [Adapter]: 登录成功
+09:41:44 [Adapter]: 尝试连接OMC
+09:41:44 [Adapter]: 尝试登录
+09:41:44 [Adapter]: 登录成功
+09:41:44 [Adapter]: UnlockDispatch
+09:41:44 [Adapter]: UnlockDispatch
+09:41:54 [Adapter]: Thread 0 get task W4040404040404040404040404040
+09:41:54 [Adapter]: ExecuteTask:W4040404040404040404040404040
+09:42:15 [AsyncComm]: Received[1]: 2
+09:42:55 监控服务器 started at 0.0.0.0:14052
+09:42:55 监控服务器已启动,最大客户端数量:5
+09:42:55 [AdapterController]: 初始化完毕.
+09:42:55 [AdapterController]: 正在启动...
+09:42:56 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:42:56 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:42:56 [AsyncComm]: Received[1]: 1
+09:42:56 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:42:56 [Adapter]: 贝尔GPON采集服务已经启动.
+09:42:56 [Adapter]: 尝试连接OMC
+09:42:56 [Adapter]: 尝试连接OMC
+09:42:56 [Adapter]: 尝试登录
+09:42:56 [Adapter]: 尝试登录
+09:42:56 [Adapter]: 登录成功
+09:42:56 [Adapter]: 登录成功
+09:42:56 [Adapter]: UnlockDispatch
+09:42:56 [Adapter]: UnlockDispatch
+09:43:06 [Adapter]: Thread 0 get task W4040404040404040404040404040
+09:43:06 [Adapter]: ExecuteTask:W4040404040404040404040404040
+09:43:26 [AsyncComm]: Received[1]: 2
+09:43:52 监控服务器 started at 0.0.0.0:14052
+09:43:52 监控服务器已启动,最大客户端数量:5
+09:43:52 [AdapterController]: 初始化完毕.
+09:43:52 [AdapterController]: 正在启动...
+09:43:53 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:43:53 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:43:53 [AsyncComm]: Received[1]: 1
+09:43:53 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:43:53 [Adapter]: 贝尔GPON采集服务已经启动.
+09:43:53 [Adapter]: 尝试连接OMC
+09:43:53 [Adapter]: 尝试登录
+09:43:53 [Adapter]: 尝试连接OMC
+09:43:53 [Adapter]: 尝试登录
+09:43:53 [Adapter]: 登录成功
+09:43:53 [Adapter]: 登录成功
+09:43:53 [Adapter]: UnlockDispatch
+09:43:53 [Adapter]: UnlockDispatch
+09:44:03 [Adapter]: Thread 0 get task W4040404040404040404040404040
+09:44:03 [Adapter]: ExecuteTask:W4040404040404040404040404040
+09:44:33 [AsyncComm]: Received[1]: 2
+09:46:35 监控服务器 started at 0.0.0.0:14052
+09:46:35 监控服务器已启动,最大客户端数量:5
+09:46:35 [AdapterController]: 初始化完毕.
+09:46:35 [AdapterController]: 正在启动...
+09:46:36 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:46:37 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:46:37 [AsyncComm]: Received[1]: 1
+09:46:37 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:46:37 [Adapter]: 贝尔GPON采集服务已经启动.
+09:46:37 [Adapter]: 尝试连接OMC
+09:46:37 [Adapter]: 尝试登录
+09:46:37 [Adapter]: 登录成功
+09:46:37 [Adapter]: 尝试连接OMC
+09:46:37 [Adapter]: 尝试登录
+09:46:37 [Adapter]: 登录成功
+09:46:37 [Adapter]: UnlockDispatch
+09:46:37 [Adapter]: UnlockDispatch
+09:46:47 [Adapter]: Thread 0 get task W4040404040404040404040404040
+09:46:47 [Adapter]: ExecuteTask:W4040404040404040404040404040
+09:47:13 [AsyncComm]: Received[1]: 2
+09:47:38 [AsyncComm]: Received[1]: 3
+09:49:38 监控服务器 started at 0.0.0.0:14052
+09:49:38 监控服务器已启动,最大客户端数量:5
+09:49:38 [AdapterController]: 初始化完毕.
+09:49:38 [AdapterController]: 正在启动...
+09:49:39 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:49:39 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:49:39 [AsyncComm]: Received[1]: 1
+09:49:39 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:49:39 [Adapter]: 贝尔GPON采集服务已经启动.
+09:49:40 [Adapter]: 尝试连接OMC
+09:49:40 [Adapter]: 尝试登录
+09:49:40 [Adapter]: 登录成功
+09:49:40 [Adapter]: 尝试连接OMC
+09:49:40 [Adapter]: 尝试登录
+09:49:40 [Adapter]: 登录成功
+09:49:40 [Adapter]: UnlockDispatch
+09:49:40 [Adapter]: UnlockDispatch
+09:49:49 [Adapter]: Thread 0 get task W4040404040404040404040404040
+09:49:49 [Adapter]: ExecuteTask:W4040404040404040404040404040
+09:50:10 [AsyncComm]: Received[1]: 2
+09:50:56 监控服务器 started at 0.0.0.0:14052
+09:50:56 监控服务器已启动,最大客户端数量:5
+09:50:56 [AdapterController]: 初始化完毕.
+09:50:56 [AdapterController]: 正在启动...
+09:50:57 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:50:57 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:50:57 [AsyncComm]: Received[1]: 1
+09:50:58 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:50:58 [Adapter]: 贝尔GPON采集服务已经启动.
+09:50:58 [Adapter]: 尝试连接OMC
+09:50:58 [Adapter]: 尝试登录
+09:50:58 [Adapter]: 登录成功
+09:50:58 [Adapter]: 尝试连接OMC
+09:50:58 [Adapter]: 尝试登录
+09:50:58 [Adapter]: 登录成功
+09:50:58 [Adapter]: UnlockDispatch
+09:50:58 [Adapter]: UnlockDispatch
+09:51:08 [Adapter]: Thread 0 get task W4040404040404040404040404040
+09:51:08 [Adapter]: ExecuteTask:W4040404040404040404040404040
+10:27:11 监控服务器 started at 0.0.0.0:14052
+10:27:11 监控服务器已启动,最大客户端数量:5
+10:27:11 [AdapterController]: 初始化完毕.
+10:27:11 [AdapterController]: 正在启动...
+10:27:13 通讯管理器已连接到应用服务器:127.0.0.1:7004
+10:27:13 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+10:27:13 [AsyncComm]: Received[1]: 1
+10:27:13 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+10:27:13 [Adapter]: 贝尔GPON采集服务已经启动.
+10:27:13 [Adapter]: 尝试连接OMC
+10:27:13 [Adapter]: 尝试登录
+10:27:13 [Adapter]: 登录成功
+10:27:13 [Adapter]: 尝试连接OMC
+10:27:13 [Adapter]: 尝试登录
+10:27:13 [Adapter]: 登录成功
+10:27:13 [Adapter]: UnlockDispatch
+10:27:13 [Adapter]: UnlockDispatch
+10:27:23 [Adapter]: Thread 0 get task W4040404040404040404040404040
+10:27:24 [Adapter]: ExecuteTask:W4040404040404040404040404040
+10:28:42 [AsyncComm]: Received[1]: 2
+10:30:08 监控服务器 started at 0.0.0.0:14052
+10:30:08 监控服务器已启动,最大客户端数量:5
+10:30:08 [AdapterController]: 初始化完毕.
+10:30:08 [AdapterController]: 正在启动...
+10:30:10 通讯管理器已连接到应用服务器:127.0.0.1:7004
+10:30:10 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+10:30:11 [AsyncComm]: Received[1]: 1
+10:30:11 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+10:30:11 [Adapter]: 贝尔GPON采集服务已经启动.
+10:30:11 [Adapter]: 尝试连接OMC
+10:30:11 [Adapter]: 尝试登录
+10:30:11 [Adapter]: 登录成功
+10:30:11 [Adapter]: 尝试连接OMC
+10:30:11 [Adapter]: 尝试登录
+10:30:11 [Adapter]: 登录成功
+10:30:11 [Adapter]: UnlockDispatch
+10:30:11 [Adapter]: UnlockDispatch
+10:30:21 [Adapter]: Thread 0 get task W4040404040404040404040404040
+10:30:21 [Adapter]: ExecuteTask:W4040404040404040404040404040
+10:30:43 [AsyncComm]: Received[1]: 2
+10:31:11 [AsyncComm]: Received[1]: 3
+10:31:42 [AsyncComm]: Received[1]: 4
+10:32:12 [AsyncComm]: Received[1]: 5
+10:32:34 [Adapter]: CheckTask:W4040404040404040404040404040
+10:32:35 [Adapter]: AdditionalRules:W4040404040404040404040404040
+10:32:35 [Adapter]: RollbackTask:W4040404040404040404040404040
+10:32:42 [AsyncComm]: Received[1]: 6
+10:33:16 [AsyncComm]: Received[1]: 7
+10:33:29 [Adapter]: AdditionalRules:W4040404040404040404040404040

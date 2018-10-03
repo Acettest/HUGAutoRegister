@@ -1,0 +1,39 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TKAlarm.cs" ctype="Workbench">
+    <Files>
+      <File FileName="AlarmManager.cs" Line="624" Column="14" />
+      <File FileName="NorthInterfaceManager.cs" Line="210" Column="1" />
+      <File FileName="TKAlarm.cs" Line="680" Column="29" />
+      <File FileName="../ClientComm/ClientComm/Communicator.cs" Line="317" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="ClientComm" expanded="True" />
+          <Node name="TK_AlarmManagment" expanded="True">
+            <Node name="TKAlarm.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>m_ProjectInfo.Tables.Count</Value>
+          <Value>sql</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/wlan/WLAN/WLAN/MySql.Data/Provider/Source/MySqlTrace.cs" line="83" />
+      <Breakpoint file="/home/wlan/WLAN/WLAN/MySql.Data/Provider/Source/MySqlTrace.cs" line="70" />
+      <Breakpoint file="/home/wlan/WLAN/WLAN/MySql.Data/Provider/Source/MySqlTrace.cs" line="42" />
+      <Breakpoint file="/home/wlan/WLAN/WLAN/code/AlarmManager.cs" line="3572" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+</Properties>

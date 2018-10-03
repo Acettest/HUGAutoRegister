@@ -1,0 +1,5 @@
+bin\Debug\DefLib.dll
+bin\Debug\DefLib.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DefLib.dll
+obj\Debug\DefLib.pdb

@@ -1,0 +1,113 @@
+09:48:00 监控服务器 started at 0.0.0.0:14050
+09:48:00 监控服务器已启动,最大客户端数量:5
+09:48:00 [AdapterController]: 初始化完毕.
+09:48:00 [AdapterController]: 正在启动...
+09:48:00 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:48:00 [Adapter]: 正在启动中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:48:00 [AsyncComm]: Received[1]: 1
+09:48:01 [Adapter]: 启动成功：中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:48:01 [Adapter]: 中兴GPON采集服务已经启动.
+09:48:01 [Adapter]: 尝试连接OMC
+09:48:01 [Adapter]: 尝试登录
+09:48:01 [Adapter]: 尝试连接OMC
+09:48:01 [Adapter]: 登录成功
+09:48:01 [Adapter]: 尝试登录
+09:48:01 [Adapter]: 登录成功
+09:48:01 [Adapter]: UnlockDispatch
+09:48:01 [Adapter]: UnlockDispatch
+09:48:11 [Adapter]: Thread 0 get task W1212121212121212121212121212
+09:48:11 [Adapter]: ExecuteTask:W1212121212121212121212121212
+09:48:11 [Adapter]: W1212121212121212121212121212
+System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 YWT.CommandsBuilder.ZTECommandsBuilder.ParseErrorDesc(Dictionary`2 additionalInfo, String command) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTCommandsBuilder_ZTE\ZTECommandsBuilder.cs:行号 60
+   在 YWT.Idl.CommandResponseMsg.ParseErrorDesc(ICommandsBuilder builder, String command) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\YWTIdl\CommandRespondMsg.cs:行号 176
+   在 YWT.Tl1Wrapper.ZTETl1Wrapper.ExecuteDelIMS(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_ZTE\ZTETl1Wrapper.cs:行号 409
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 582
+09:48:11 [Adapter]: CheckTask:W1212121212121212121212121212
+09:48:11 [Adapter]: AdditionalRules:W1212121212121212121212121212
+09:48:11 [Adapter]: UpdateTask:W1212121212121212121212121212
+09:48:11 [Adapter]: UnlockDispatch
+09:48:30 [AsyncComm]: Received[1]: 2
+09:48:50 监控服务器 started at 0.0.0.0:14050
+09:48:50 监控服务器已启动,最大客户端数量:5
+09:48:50 [AdapterController]: 初始化完毕.
+09:48:50 [AdapterController]: 正在启动...
+09:48:51 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:48:51 [Adapter]: 正在启动中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:48:51 [AsyncComm]: Received[1]: 1
+09:48:51 [Adapter]: 启动成功：中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:48:51 [Adapter]: 中兴GPON采集服务已经启动.
+09:48:51 [Adapter]: 尝试连接OMC
+09:48:51 [Adapter]: 尝试登录
+09:48:51 [Adapter]: 登录成功
+09:48:51 [Adapter]: 尝试连接OMC
+09:48:51 [Adapter]: 尝试登录
+09:48:51 [Adapter]: 登录成功
+09:48:51 [Adapter]: UnlockDispatch
+09:48:51 [Adapter]: UnlockDispatch
+09:49:01 [Adapter]: Thread 0 get task W1212121212121212121212121212
+09:49:01 [Adapter]: ExecuteTask:W1212121212121212121212121212
+09:49:23 [AsyncComm]: Received[1]: 2
+09:49:53 [AsyncComm]: Received[1]: 3
+09:50:54 监控服务器 started at 0.0.0.0:14050
+09:50:54 监控服务器已启动,最大客户端数量:5
+09:50:54 [AdapterController]: 初始化完毕.
+09:50:54 [AdapterController]: 正在启动...
+09:50:55 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:50:55 [Adapter]: 正在启动中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:50:55 [AsyncComm]: Received[1]: 1
+09:50:56 [Adapter]: 启动成功：中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:50:56 [Adapter]: 中兴GPON采集服务已经启动.
+09:50:56 [Adapter]: 尝试连接OMC
+09:50:56 [Adapter]: 尝试登录
+09:50:56 [Adapter]: 尝试连接OMC
+09:50:56 [Adapter]: 尝试登录
+09:50:56 [Adapter]: 登录成功
+09:50:56 [Adapter]: 登录成功
+09:50:56 [Adapter]: UnlockDispatch
+09:50:56 [Adapter]: UnlockDispatch
+09:51:06 [Adapter]: Thread 0 get task W1212121212121212121212121212
+09:51:06 [Adapter]: ExecuteTask:W1212121212121212121212121212
+09:51:25 [AsyncComm]: Received[1]: 2
+09:51:55 [AsyncComm]: Received[1]: 3
+09:55:11 监控服务器 started at 0.0.0.0:14050
+09:55:11 监控服务器已启动,最大客户端数量:5
+09:55:11 [AdapterController]: 初始化完毕.
+09:55:11 [AdapterController]: 正在启动...
+09:55:13 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:55:13 [Adapter]: 正在启动中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:55:13 [AsyncComm]: Received[1]: 1
+09:55:13 [Adapter]: 启动成功：中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:55:13 [Adapter]: 中兴GPON采集服务已经启动.
+09:55:13 [Adapter]: 尝试连接OMC
+09:55:13 [Adapter]: 尝试登录
+09:55:13 [Adapter]: 登录成功
+09:55:13 [Adapter]: 尝试连接OMC
+09:55:13 [Adapter]: 尝试登录
+09:55:13 [Adapter]: 登录成功
+09:55:13 [Adapter]: UnlockDispatch
+09:55:13 [Adapter]: UnlockDispatch
+09:55:23 [Adapter]: Thread 0 get task W1212121212121212121212121212
+09:55:23 [Adapter]: ExecuteTask:W1212121212121212121212121212
+09:55:57 监控服务器 started at 0.0.0.0:14050
+09:55:57 监控服务器已启动,最大客户端数量:5
+09:55:57 [AdapterController]: 初始化完毕.
+09:55:57 [AdapterController]: 正在启动...
+09:55:58 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:55:58 [Adapter]: 正在启动中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:55:58 [AsyncComm]: Received[1]: 1
+09:55:58 [Adapter]: 启动成功：中兴GPON告警适配器(采集周期:10000[毫秒])...
+09:55:58 [Adapter]: 中兴GPON采集服务已经启动.
+09:55:59 [Adapter]: 尝试连接OMC
+09:55:59 [Adapter]: 尝试连接OMC
+09:55:59 [Adapter]: 尝试登录
+09:55:59 [Adapter]: 尝试登录
+09:55:59 [Adapter]: 登录成功
+09:55:59 [Adapter]: 登录成功
+09:55:59 [Adapter]: UnlockDispatch
+09:55:59 [Adapter]: UnlockDispatch
+09:56:09 [Adapter]: Thread 0 get task W1212121212121212121212121212
+09:56:09 [Adapter]: ExecuteTask:W1212121212121212121212121212
+09:56:28 [AsyncComm]: Received[1]: 2

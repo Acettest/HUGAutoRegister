@@ -1,0 +1,111 @@
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+E:\Code Information\宽带项目\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+E:\Code Information\宽带项目\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+E:\Code Information\宽带项目\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\宽带项目\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+E:\Code Information\宽带项目\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Code Information\宽带项目\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Code Information\宽带项目\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+E:\Code Information\宽带项目\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\项目\安徽\传输项目\Gpon自动激活\代码\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\项目\安徽\传输项目\Gpon自动激活\代码\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\项目\安徽\传输项目\Gpon自动激活\代码\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\项目\安徽\传输项目\Gpon自动激活\代码\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\ftth\代码\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\ftth\代码\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\ftth\代码\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\ftth\代码\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\ftth\代码\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\ftth\代码\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\ftth\代码\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\ftth\代码\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+D:\ftth\new\代码\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+D:\ftth\new\代码\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+D:\ftth\new\代码\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+D:\ftth\new\代码\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+D:\ftth\new\代码\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\ftth\new\代码\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\ftth\new\代码\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+D:\ftth\new\代码\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+H:\安徽项目\安徽传输项目\一网通\YWT\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+H:\安徽项目\安徽传输项目\一网通\YWT\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+H:\安徽项目\安徽传输项目\一网通\YWT\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+H:\安徽项目\安徽传输项目\一网通\YWT\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\MySql.Data\Provider\obj\Debug\MySql.Data.csprojResolveAssemblyReference.cache
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.csprojResolveAssemblyReference.cache
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\MySql.Data\Provider\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.Cache
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.csprojAssemblyReference.cache
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.cache
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.CoreCompileInputs.cache
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\bin\Debug\MySql.Data.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\bin\Debug\MySql.Data.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.csprojAssemblyReference.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.MySqlClient.Properties.Resources.resources
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.GenerateResource.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.csproj.CoreCompileInputs.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\MySql.Data\Provider\obj\Debug\MySql.Data.pdb

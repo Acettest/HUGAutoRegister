@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="SysDB">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="dbname" type="xs:string" minOccurs="0" />
+                <xs:element name="hostname" type="xs:string" minOccurs="0" />
+                <xs:element name="username" type="xs:string" minOccurs="0" />
+                <xs:element name="userpass" type="xs:string" minOccurs="0" />
+                <xs:element name="database" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="HostDB">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="host" type="xs:string" minOccurs="0" />
+                <xs:element name="component" type="xs:string" minOccurs="0" />
+                <xs:element name="refresh_interval" type="xs:string" minOccurs="0" />
+                <xs:element name="timeout" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Parameters">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="paraname" type="xs:string" minOccurs="0" />
+                <xs:element name="value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SysDB>
+    <dbname>CE-35-A0-72-09-1D-DA-24-1A-D7-B9-5A-92-6D-52-6A</dbname>
+    <hostname>B5-89-0E-35-4F-8C-34-54</hostname>
+    <username>FD-F7-C1-CB-4F-1F-30-DB</username>
+    <userpass>C5-38-65-66-8E-CD-2F-E4</userpass>
+    <database>E0-D3-D4-D0-0F-45-F3-82</database>
+  </SysDB>
+  <HostDB>
+    <host>2D-37-03-9E-5C-C1-59-D9-75-A8-36-15-A2-7C-6C-F6</host>
+    <component>2D-37-03-9E-5C-C1-59-D9-75-A8-36-15-A2-7C-6C-F6</component>
+    <refresh_interval>20-DF-91-5A-C2-6E-CF-DF</refresh_interval>
+    <timeout>77-4F-7E-36-8B-AA-1A-A8</timeout>
+  </HostDB>
+  <Parameters>
+    <paraname>CE-35-A0-72-09-1D-DA-24-38-4C-EA-2A-ED-A4-2D-01</paraname>
+    <value>CE-35-A0-72-09-1D-DA-24-D3-F8-8C-1B-D3-37-E1-09</value>
+  </Parameters>
+</NewDataSet>

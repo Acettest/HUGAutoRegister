@@ -1,0 +1,10 @@
+D:\Work\无线\TKAutoLauncher\bin\Debug\TKAutoLauncher.exe
+D:\Work\无线\TKAutoLauncher\bin\Debug\TKAutoLauncher.pdb
+D:\Work\无线\TKAutoLauncher\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\无线\TKAutoLauncher\obj\Debug\TKAutoLauncher.ProjectInstaller.resources
+D:\Work\无线\TKAutoLauncher\obj\Debug\TKAutoLauncher.TKAutoLauncher.resources
+D:\Work\无线\TKAutoLauncher\obj\Debug\TKAutoLauncher.csproj.GenerateResource.Cache
+D:\Work\无线\TKAutoLauncher\obj\Debug\TKAutoLauncher.exe
+D:\Work\无线\TKAutoLauncher\obj\Debug\TKAutoLauncher.pdb
+D:\test_uniteNew\TKAutoLauncher\obj\Debug\TKAutoLauncher.exe
+D:\test_uniteNew\TKAutoLauncher\obj\Debug\TKAutoLauncher.pdb

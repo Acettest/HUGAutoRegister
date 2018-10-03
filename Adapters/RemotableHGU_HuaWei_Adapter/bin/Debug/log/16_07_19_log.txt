@@ -1,0 +1,241 @@
+14:07:12 监控服务器 started at 0.0.0.0:14053
+14:07:12 监控服务器已启动,最大客户端数量:5
+14:07:12 [AdapterController]: 初始化完毕.
+14:07:15 [AdapterController]: 正在启动...
+14:07:18 通讯管理器已连接到应用服务器:127.0.0.1:7004
+14:07:18 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+14:07:19 [AsyncComm]: Received[1]: 1
+14:07:19 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+14:07:19 [Adapter]: 华为GPON采集服务已经启动.
+14:07:20 [Adapter]: 尝试连接OMC
+14:07:20 [Adapter]: 尝试登录
+14:07:20 [Adapter]: 尝试连接OMC
+14:07:20 [Adapter]: 尝试登录
+14:07:20 [Adapter]: 登录成功
+14:07:20 [Adapter]: 登录成功
+14:07:27 [Adapter]: UnlockDispatch
+14:07:27 [Adapter]: UnlockDispatch
+14:07:51 [AsyncComm]: Received[1]: 2
+14:10:19 监控服务器 started at 0.0.0.0:14053
+14:10:19 监控服务器已启动,最大客户端数量:5
+14:10:19 [AdapterController]: 初始化完毕.
+14:10:22 [AdapterController]: 正在启动...
+14:10:24 通讯管理器已连接到应用服务器:127.0.0.1:7004
+14:10:24 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+14:10:24 [AsyncComm]: Received[1]: 1
+14:10:24 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+14:10:24 [Adapter]: 华为GPON采集服务已经启动.
+14:10:24 [Adapter]: 尝试连接OMC
+14:10:24 [Adapter]: 尝试登录
+14:10:24 [Adapter]: 尝试连接OMC
+14:10:24 [Adapter]: 尝试登录
+14:10:59 [Adapter]: 登录成功
+14:10:59 [Adapter]: 登录成功
+14:11:01 [Adapter]: UnlockDispatch
+14:11:01 [Adapter]: UnlockDispatch
+14:11:01 [AsyncComm]: Received[1]: 2
+14:12:50 监控服务器 started at 0.0.0.0:14053
+14:12:50 监控服务器已启动,最大客户端数量:5
+14:12:50 [AdapterController]: 初始化完毕.
+14:12:53 [AdapterController]: 正在启动...
+14:12:55 通讯管理器已连接到应用服务器:127.0.0.1:7004
+14:12:55 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+14:12:55 [AsyncComm]: Received[1]: 1
+14:12:55 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+14:12:55 [Adapter]: 华为GPON采集服务已经启动.
+14:12:55 [Adapter]: 尝试连接OMC
+14:12:55 [Adapter]: 尝试登录
+14:12:55 [Adapter]: 尝试连接OMC
+14:12:55 [Adapter]: 尝试登录
+14:12:55 [Adapter]: 登录成功
+14:12:56 [Adapter]: 登录成功
+14:12:58 [Adapter]: UnlockDispatch
+14:12:58 [Adapter]: UnlockDispatch
+14:13:07 [Adapter]: Thread 0 get task W1111111111111
+14:13:09 [Adapter]: ExecuteTask:W1111111111111
+14:13:27 [AsyncComm]: Received[1]: 2
+14:13:56 [AsyncComm]: Received[1]: 3
+14:14:26 [AsyncComm]: Received[1]: 4
+14:14:58 [AsyncComm]: Received[1]: 5
+14:15:27 [AsyncComm]: Received[1]: 6
+14:15:29 [Adapter]: CheckTask:W1111111111111
+14:15:58 [AsyncComm]: Received[1]: 7
+14:43:59 监控服务器 started at 0.0.0.0:14053
+14:44:00 监控服务器已启动,最大客户端数量:5
+14:44:00 [AdapterController]: 初始化完毕.
+14:46:21 [AdapterController]: 正在启动...
+14:46:22 通讯管理器已连接到应用服务器:127.0.0.1:7004
+14:46:22 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+14:46:22 [AsyncComm]: Received[1]: 1
+14:46:23 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+14:46:23 [Adapter]: 华为GPON采集服务已经启动.
+14:46:23 [Adapter]: 尝试连接OMC
+14:46:23 [Adapter]: 尝试登录
+14:46:23 [Adapter]: 尝试连接OMC
+14:46:24 [Adapter]: 尝试登录
+14:46:24 [Adapter]: 登录成功
+14:46:24 [Adapter]: 登录成功
+14:46:26 [Adapter]: UnlockDispatch
+14:46:26 [Adapter]: UnlockDispatch
+14:46:40 [Adapter]: Thread 0 get task W1111111111111
+14:46:43 [Adapter]: ExecuteTask:W1111111111111
+14:46:53 [AsyncComm]: Received[1]: 2
+14:47:24 [AsyncComm]: Received[1]: 3
+14:47:54 [AsyncComm]: Received[1]: 4
+14:48:24 [AsyncComm]: Received[1]: 5
+14:48:53 [AsyncComm]: Received[1]: 6
+14:49:23 [AsyncComm]: Received[1]: 7
+14:50:02 [AsyncComm]: Received[1]: 8
+14:50:33 [AsyncComm]: Received[1]: 9
+14:50:49 [Adapter]: CheckTask:W1111111111111
+14:51:03 [AsyncComm]: Received[1]: 10
+14:52:45 [AsyncComm]: Received[1]: 11
+14:52:45 [AsyncComm]: Received[1]: 12
+14:53:03 [AsyncComm]: Received[1]: 13
+14:53:33 [AsyncComm]: Received[1]: 14
+14:54:04 [AsyncComm]: Received[1]: 15
+14:54:21 [Adapter]: CheckTask Succeed:W1111111111111
+14:54:32 [AsyncComm]: Received[1]: 16
+14:54:46 [Adapter]: UpdateTask:W1111111111111
+14:55:04 [AsyncComm]: Received[1]: 17
+14:55:08 [Adapter]: UnlockDispatch
+15:27:21 监控服务器 started at 0.0.0.0:14053
+15:27:21 监控服务器已启动,最大客户端数量:5
+15:27:21 [AdapterController]: 初始化完毕.
+15:27:28 [AdapterController]: 正在启动...
+15:27:29 通讯管理器已连接到应用服务器:127.0.0.1:7004
+15:27:29 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+15:27:30 [AsyncComm]: Received[1]: 1
+15:27:30 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+15:27:30 [Adapter]: 华为GPON采集服务已经启动.
+15:27:30 [Adapter]: 尝试连接OMC
+15:27:30 [Adapter]: 尝试登录
+15:27:30 [Adapter]: 尝试连接OMC
+15:27:30 [Adapter]: 尝试登录
+15:27:30 [Adapter]: 登录成功
+15:27:30 [Adapter]: 登录成功
+15:27:32 [Adapter]: UnlockDispatch
+15:27:32 [Adapter]: UnlockDispatch
+15:27:53 [Adapter]: Thread 0 get task W22222222222
+15:27:54 [Adapter]: ExecuteTask:W22222222222
+15:28:04 [AsyncComm]: Received[1]: 2
+15:28:31 [AsyncComm]: Received[1]: 3
+15:30:11 监控服务器 started at 0.0.0.0:14053
+15:30:11 监控服务器已启动,最大客户端数量:5
+15:30:11 [AdapterController]: 初始化完毕.
+15:30:37 [AdapterController]: 正在启动...
+15:30:38 通讯管理器已连接到应用服务器:127.0.0.1:7004
+15:30:38 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+15:30:38 [AsyncComm]: Received[1]: 1
+15:30:38 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+15:30:38 [Adapter]: 华为GPON采集服务已经启动.
+15:30:39 [Adapter]: 尝试连接OMC
+15:30:39 [Adapter]: 尝试登录
+15:30:39 [Adapter]: 尝试连接OMC
+15:30:39 [Adapter]: 尝试登录
+15:30:39 [Adapter]: 登录成功
+15:30:39 [Adapter]: 登录成功
+15:30:40 [Adapter]: UnlockDispatch
+15:30:40 [Adapter]: UnlockDispatch
+15:30:49 [Adapter]: Thread 0 get task W22222222222
+15:30:51 [Adapter]: ExecuteTask:W22222222222
+15:31:09 [AsyncComm]: Received[1]: 2
+15:31:39 [AsyncComm]: Received[1]: 3
+15:32:08 [AsyncComm]: Received[1]: 4
+15:32:39 [AsyncComm]: Received[1]: 5
+15:33:09 [AsyncComm]: Received[1]: 6
+15:33:38 [AsyncComm]: Received[1]: 7
+15:33:53 [Adapter]: CheckTask:W22222222222
+15:34:08 [AsyncComm]: Received[1]: 8
+15:34:38 [AsyncComm]: Received[1]: 9
+15:35:10 [AsyncComm]: Received[1]: 10
+15:35:41 [AsyncComm]: Received[1]: 11
+15:36:11 [AsyncComm]: Received[1]: 12
+15:36:13 [Adapter]: CheckTask Succeed:W22222222222
+15:36:39 [AsyncComm]: Received[1]: 13
+15:36:45 [Adapter]: UpdateTask:W22222222222
+15:37:00 [Adapter]: UnlockDispatch
+16:00:17 监控服务器 started at 0.0.0.0:14053
+16:00:18 监控服务器已启动,最大客户端数量:5
+16:00:18 [AdapterController]: 初始化完毕.
+16:00:28 [AdapterController]: 正在启动...
+16:00:30 通讯管理器已连接到应用服务器:127.0.0.1:7004
+16:00:30 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+16:00:30 [AsyncComm]: Received[1]: 1
+16:00:30 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+16:00:30 [Adapter]: 华为GPON采集服务已经启动.
+16:00:30 [Adapter]: 尝试连接OMC
+16:00:30 [Adapter]: 尝试连接OMC
+16:00:30 [Adapter]: 尝试登录
+16:00:30 [Adapter]: 尝试登录
+16:00:31 [Adapter]: 登录成功
+16:00:31 [Adapter]: 登录成功
+16:00:33 [Adapter]: UnlockDispatch
+16:00:33 [Adapter]: UnlockDispatch
+16:00:44 [Adapter]: Thread 0 get task W33333333333
+16:00:47 [Adapter]: ExecuteTask:W33333333333
+16:01:00 [AsyncComm]: Received[1]: 2
+16:01:31 [AsyncComm]: Received[1]: 3
+16:02:00 [AsyncComm]: Received[1]: 4
+16:02:38 [Adapter]: CheckTask:W33333333333
+16:02:38 [AsyncComm]: Received[1]: 5
+16:03:07 [AsyncComm]: Received[1]: 6
+16:03:45 [Adapter]: CheckTask Succeed:W33333333333
+16:03:46 [AsyncComm]: Received[1]: 7
+16:03:54 [Adapter]: UpdateTask:W33333333333
+16:25:13 监控服务器 started at 0.0.0.0:14053
+16:25:13 监控服务器已启动,最大客户端数量:5
+16:25:13 [AdapterController]: 初始化完毕.
+16:25:21 [AdapterController]: 正在启动...
+16:25:26 通讯管理器已连接到应用服务器:127.0.0.1:7004
+16:25:26 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+16:25:26 [AsyncComm]: Received[1]: 1
+16:25:27 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+16:25:27 [Adapter]: 华为GPON采集服务已经启动.
+16:25:27 [Adapter]: 尝试连接OMC
+16:25:27 [Adapter]: 尝试连接OMC
+16:25:27 [Adapter]: 尝试登录
+16:25:27 [Adapter]: 尝试登录
+16:25:28 [Adapter]: 登录成功
+16:25:28 [Adapter]: 登录成功
+16:25:33 [Adapter]: UnlockDispatch
+16:25:33 [Adapter]: UnlockDispatch
+16:25:57 [AsyncComm]: Received[1]: 2
+16:25:58 [Adapter]: Thread 0 get task W44444444444
+16:25:58 [Adapter]: ExecuteTask:W44444444444
+16:26:29 [AsyncComm]: Received[1]: 3
+16:26:52 [Adapter]: CheckTask:W44444444444
+16:27:01 [AsyncComm]: Received[1]: 4
+16:27:32 [AsyncComm]: Received[1]: 5
+16:27:50 [Adapter]: CheckTask Succeed:W44444444444
+16:27:50 [Adapter]: UpdateTask:W44444444444
+16:27:55 [Adapter]: UnlockDispatch
+16:27:57 [AsyncComm]: Received[1]: 6
+16:29:59 监控服务器 started at 0.0.0.0:14053
+16:29:59 监控服务器已启动,最大客户端数量:5
+16:29:59 [AdapterController]: 初始化完毕.
+16:30:05 [AdapterController]: 正在启动...
+16:30:08 通讯管理器已连接到应用服务器:127.0.0.1:7004
+16:30:08 [Adapter]: 正在启动华为GPON告警适配器(采集周期:10000[毫秒])...
+16:30:08 [AsyncComm]: Received[1]: 1
+16:30:08 [Adapter]: 启动成功：华为GPON告警适配器(采集周期:10000[毫秒])...
+16:30:08 [Adapter]: 华为GPON采集服务已经启动.
+16:30:08 [Adapter]: 尝试连接OMC
+16:30:08 [Adapter]: 尝试登录
+16:30:08 [Adapter]: 登录成功
+16:30:08 [Adapter]: 尝试连接OMC
+16:30:08 [Adapter]: 尝试登录
+16:30:08 [Adapter]: 登录成功
+16:30:11 [Adapter]: UnlockDispatch
+16:30:11 [Adapter]: UnlockDispatch
+16:30:23 [Adapter]: Thread 0 get task W77777777777
+16:30:25 [Adapter]: ExecuteTask:W77777777777
+16:30:38 [AsyncComm]: Received[1]: 2
+16:31:09 [AsyncComm]: Received[1]: 3
+16:31:39 [AsyncComm]: Received[1]: 4
+16:32:09 [AsyncComm]: Received[1]: 5
+16:32:10 [Adapter]: CheckTask:W77777777777
+16:32:39 [AsyncComm]: Received[1]: 6
+16:32:41 [Adapter]: CheckTask Succeed:W77777777777
+16:32:41 [Adapter]: UpdateTask:W77777777777
+16:32:42 [Adapter]: UnlockDispatch

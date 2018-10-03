@@ -1,0 +1,10 @@
+bin\Debug\ClientComm.dll
+bin\Debug\ClientComm.pdb
+bin\Debug\C5.dll
+bin\Debug\DefLib.dll
+bin\Debug\DefLib.pdb
+bin\Debug\C5.pdb
+bin\Debug\C5.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ClientComm.dll
+obj\Debug\ClientComm.pdb

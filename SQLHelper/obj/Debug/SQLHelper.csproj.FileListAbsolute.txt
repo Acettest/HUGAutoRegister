@@ -1,0 +1,102 @@
+E:\Code Information\WLAN项目\智能眼独立服务器版本\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\SQLHelper\bin\Debug\MySql.Data.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\SQLHelper\bin\Debug\MySql.Data.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\WLAN项目\智能眼独立服务器版本\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Code Information\宽带项目\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Code Information\宽带项目\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Code Information\宽带项目\SQLHelper\bin\Debug\MySql.Data.dll
+E:\Code Information\宽带项目\SQLHelper\bin\Debug\MySql.Data.pdb
+E:\Code Information\宽带项目\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\宽带项目\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Code Information\宽带项目\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\SQLHelper\bin\Debug\SQLHelper.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\SQLHelper\bin\Debug\MySql.Data.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\SQLHelper\bin\Debug\MySql.Data.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\SQLHelper\obj\Debug\SQLHelper.dll
+D:\项目\安徽\传输项目\Gpon自动激活\宽带项目\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\SQLHelper\bin\Debug\SQLHelper.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\SQLHelper\bin\Debug\MySql.Data.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\SQLHelper\bin\Debug\MySql.Data.pdb
+D:\项目\安徽\传输项目\Gpon自动激活\代码\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\项目\安徽\传输项目\Gpon自动激活\代码\SQLHelper\obj\Debug\SQLHelper.dll
+D:\项目\安徽\传输项目\Gpon自动激活\代码\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ftth\代码\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ftth\代码\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ftth\代码\SQLHelper\bin\Debug\MySql.Data.dll
+D:\ftth\代码\SQLHelper\bin\Debug\MySql.Data.pdb
+D:\ftth\代码\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ftth\代码\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ftth\代码\SQLHelper\obj\Debug\SQLHelper.pdb
+D:\ftth\new\代码\SQLHelper\bin\Debug\SQLHelper.dll
+D:\ftth\new\代码\SQLHelper\bin\Debug\SQLHelper.pdb
+D:\ftth\new\代码\SQLHelper\bin\Debug\MySql.Data.dll
+D:\ftth\new\代码\SQLHelper\bin\Debug\MySql.Data.pdb
+D:\ftth\new\代码\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+D:\ftth\new\代码\SQLHelper\obj\Debug\SQLHelper.dll
+D:\ftth\new\代码\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\SQLHelper\bin\Debug\MySql.Data.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\SQLHelper\bin\Debug\MySql.Data.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Work\项目代码\安徽传输项目\FTTH自动激活\FTTH\SQLHelper\obj\Debug\SQLHelper.csprojResolveAssemblyReference.cache
+H:\安徽项目\安徽传输项目\一网通\YWT\SQLHelper\bin\Debug\SQLHelper.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\SQLHelper\bin\Debug\SQLHelper.pdb
+H:\安徽项目\安徽传输项目\一网通\YWT\SQLHelper\bin\Debug\MySql.Data.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\SQLHelper\bin\Debug\MySql.Data.pdb
+H:\安徽项目\安徽传输项目\一网通\YWT\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+H:\安徽项目\安徽传输项目\一网通\YWT\SQLHelper\obj\Debug\SQLHelper.dll
+H:\安徽项目\安徽传输项目\一网通\YWT\SQLHelper\obj\Debug\SQLHelper.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\SQLHelper\bin\Debug\SQLHelper.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\SQLHelper\bin\Debug\SQLHelper.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\SQLHelper\bin\Debug\MySql.Data.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\SQLHelper\bin\Debug\MySql.Data.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\SQLHelper\obj\Debug\SQLHelper.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\SQLHelper\obj\Debug\SQLHelper.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\SQLHelper\obj\Debug\SQLHelper.csprojResolveAssemblyReference.cache
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\SQLHelper\bin\Debug\SQLHelper.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\SQLHelper\bin\Debug\SQLHelper.pdb
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\SQLHelper\bin\Debug\MySql.Data.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\SQLHelper\bin\Debug\MySql.Data.pdb
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\SQLHelper\obj\Debug\SQLHelper.csprojResolveAssemblyReference.cache
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\SQLHelper\obj\Debug\SQLHelper.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\bin\Debug\MySql.Data.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\bin\Debug\MySql.Data.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\obj\Debug\SQLHelper.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\SQLHelper\bin\Debug\SQLHelper.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\SQLHelper\bin\Debug\MySql.Data.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\SQLHelper\bin\Debug\MySql.Data.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\SQLHelper\obj\Debug\SQLHelper.csprojResolveAssemblyReference.cache
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\SQLHelper\obj\Debug\SQLHelper.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\SQLHelper\obj\Debug\SQLHelper.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\bin\Debug\SQLHelper.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\bin\Debug\SQLHelper.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\bin\Debug\MySql.Data.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\bin\Debug\MySql.Data.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.csprojAssemblyReference.cache
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.csproj.CoreCompileInputs.cache
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.csproj.CopyComplete
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\bin\Debug\SQLHelper.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\bin\Debug\MySql.Data.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\bin\Debug\MySql.Data.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.csprojAssemblyReference.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.csproj.CoreCompileInputs.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.csproj.CopyComplete
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\SQLHelper\obj\Debug\SQLHelper.pdb

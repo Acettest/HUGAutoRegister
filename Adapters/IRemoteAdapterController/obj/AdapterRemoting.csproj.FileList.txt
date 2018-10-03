@@ -1,0 +1,5 @@
+bin\Debug\AdapterRemoting.dll
+bin\Debug\AdapterRemoting.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AdapterRemoting.dll
+obj\Debug\AdapterRemoting.pdb

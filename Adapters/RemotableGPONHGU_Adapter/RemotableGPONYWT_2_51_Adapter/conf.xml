@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Parameters">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Parameters>
+    <name>95-22-38-37-FD-75-F3-60-A9-77-9E-27-6A-3E-45-F5</name>
+    <value>AF-55-84-FF-3E-03-CB-63-6D-EA-09-B6-0F-8D-67-AE-05-24-FF-CD-69-38-24-F1</value>
+  </Parameters>
+  <Parameters>
+    <name>0C-3C-06-D4-8C-86-BD-AB-C6-80-DC-C4-34-9F-EC-74</name>
+    <value>CD-23-17-04-33-DA-00-C5</value>
+  </Parameters>
+  <Parameters>
+    <name>DD-E6-8C-5F-91-B3-AA-2B-BC-33-D4-ED-94-98-FE-84</name>
+    <value>B0-1A-D1-E2-63-E8-96-E0</value>
+  </Parameters>
+  <Parameters>
+    <name>B1-3A-3D-6F-DF-72-3A-D2-F7-D9-D8-B1-37-0D-90-ED</name>
+    <value>D7-88-20-35-3C-C4-2B-E6-DE-2E-84-8A-85-6E-CE-D7</value>
+  </Parameters>
+  <Parameters>
+    <name>13-BC-90-CB-6B-CC-37-6A-3A-7A-F6-20-18-D6-14-7A</name>
+    <value>5C-62-C6-C1-59-AF-0F-48</value>
+  </Parameters>
+  <Parameters>
+    <name>87-13-14-0A-0F-5E-6A-35</name>
+    <value>ED-4B-26-BA-64-E4-18-75</value>
+  </Parameters>
+  <Parameters>
+    <name>CA-01-1B-30-12-69-D6-60-C5-BB-4D-A3-7C-92-66-46</name>
+    <value>90-3A-0F-C0-EF-D2-10-8C</value>
+  </Parameters>
+  <Parameters>
+    <name>2E-29-4F-19-C6-60-EE-82-FA-FD-22-79-10-AF-86-14</name>
+    <value>24-01-52-25-6D-8A-80-D1</value>
+  </Parameters>
+  <Parameters>
+    <name>1B-94-62-49-60-3B-12-B5-E1-DB-6E-59-18-66-5D-DF</name>
+    <value>B1-82-A5-5D-CB-AE-23-7B</value>
+  </Parameters>
+  <Parameters>
+    <name>FD-55-C5-0C-67-AA-19-B6-E4-B1-3C-55-D3-40-C5-59</name>
+    <value>77-4F-7E-36-8B-AA-1A-A8</value>
+  </Parameters>
+  <Parameters>
+    <name>F1-91-D8-DC-47-52-F4-EC-37-FA-89-08-85-8C-D2-30-AD-B5-8B-58-26-5D-28-A3</name>
+    <value>9C-B4-2A-B3-BA-8B-3B-BB</value>
+  </Parameters>
+</NewDataSet>

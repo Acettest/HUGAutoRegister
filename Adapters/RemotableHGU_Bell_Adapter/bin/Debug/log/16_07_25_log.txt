@@ -1,0 +1,296 @@
+09:25:19 监控服务器 started at 0.0.0.0:14052
+09:25:19 监控服务器已启动,最大客户端数量:5
+09:25:19 [AdapterController]: 初始化完毕.
+09:25:19 [AdapterController]: 正在启动...
+09:25:21 通讯管理器已连接到应用服务器:127.0.0.1:7004
+09:25:21 [Adapter]: 正在启动贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:25:21 [AsyncComm]: Received[1]: 1
+09:25:21 [Adapter]: 启动成功：贝尔GPON告警适配器(采集周期:10000[毫秒])...
+09:25:21 [Adapter]: 贝尔GPON采集服务已经启动.
+09:25:21 [Adapter]: 尝试连接OMC
+09:25:21 [Adapter]: 尝试登录
+09:25:21 [Adapter]: 尝试连接OMC
+09:25:21 [Adapter]: 登录成功
+09:25:21 [Adapter]: 尝试登录
+09:25:21 [Adapter]: 登录成功
+09:25:21 [Adapter]: UnlockDispatch
+09:25:21 [Adapter]: UnlockDispatch
+09:25:51 [AsyncComm]: Received[1]: 2
+09:25:51 [Adapter]: Thread 0 get task W1111111111111
+09:25:51 [Adapter]: ExecuteTask:W1111111111111
+09:25:51 [Adapter]: W1111111111111
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteNewBroadband(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 94
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 567
+09:25:51 [Adapter]: CheckTask:W1111111111111
+09:25:51 [Adapter]: CheckTask Succeed:W1111111111111
+09:25:51 [Adapter]: UpdateTask:W1111111111111
+09:25:51 [Adapter]: UnlockDispatch
+09:25:52 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:26:21 [AsyncComm]: Received[1]: 3
+09:26:41 [Adapter]: Thread 0 get task W22222222222
+09:26:41 [Adapter]: ExecuteTask:W22222222222
+09:26:42 [Adapter]: W22222222222
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteNewIMS(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 150
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 570
+09:26:42 [Adapter]: CheckTask:W22222222222
+09:26:42 [Adapter]: CheckTask Succeed:W22222222222
+09:26:42 [Adapter]: UpdateTask:W22222222222
+09:26:42 [Adapter]: UnlockDispatch
+09:26:42 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:26:51 [AsyncComm]: Received[1]: 4
+09:27:01 [Adapter]: Thread 0 get task W33333333333
+09:27:01 [Adapter]: Thread 1 get task W44444444444
+09:27:01 [Adapter]: ExecuteTask:W33333333333
+09:27:01 [Adapter]: W33333333333
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteAddBroadband(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 178
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 573
+09:27:01 [Adapter]: CheckTask:W33333333333
+09:27:02 [Adapter]: CheckTask Succeed:W33333333333
+09:27:02 [Adapter]: UpdateTask:W33333333333
+09:27:02 [Adapter]: UnlockDispatch
+09:27:02 [Adapter]: ExecuteTask:W44444444444
+09:27:02 [Adapter]: W44444444444
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteAddIMS(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 224
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 576
+09:27:02 [Adapter]: CheckTask:W44444444444
+09:27:02 [Adapter]: CheckTask Succeed:W44444444444
+09:27:02 [Adapter]: UpdateTask:W44444444444
+09:27:02 [Adapter]: UnlockDispatch
+09:27:02 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:27:02 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:27:21 [AsyncComm]: Received[1]: 5
+09:27:31 [Adapter]: Thread 0 get task W55555555555
+09:27:31 [Adapter]: ExecuteTask:W55555555555
+09:27:32 [Adapter]: W55555555555
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteDelBroadband(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 295
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 579
+09:27:32 [Adapter]: CheckTask:W55555555555
+09:27:32 [Adapter]: CheckTask Succeed:W55555555555
+09:27:32 [Adapter]: UpdateTask:W55555555555
+09:27:32 [Adapter]: UnlockDispatch
+09:27:32 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:27:41 [Adapter]: Thread 0 get task W66666666666
+09:27:42 [Adapter]: ExecuteTask:W66666666666
+09:27:42 [Adapter]: W66666666666
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteDelIMS(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 412
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 582
+09:27:42 [Adapter]: CheckTask:W66666666666
+09:27:42 [Adapter]: CheckTask Succeed:W66666666666
+09:27:42 [Adapter]: UpdateTask:W66666666666
+09:27:42 [Adapter]: UnlockDispatch
+09:27:42 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:27:51 [AsyncComm]: Received[1]: 6
+09:28:02 [Adapter]: Thread 0 get task W77777777777
+09:28:02 [Adapter]: ExecuteTask:W77777777777
+09:28:02 [Adapter]: W77777777777
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteDelOnu(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 505
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 585
+09:28:02 [Adapter]: CheckTask:W77777777777
+09:28:02 [Adapter]: CheckTask Succeed:W77777777777
+09:28:02 [Adapter]: UpdateTask:W77777777777
+09:28:02 [Adapter]: UnlockDispatch
+09:28:02 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:28:21 [AsyncComm]: Received[1]: 7
+09:28:22 [Adapter]: Thread 0 get task W88888888888
+09:28:22 [Adapter]: Thread 0 loid 2345678123456778 正被task W9999999999 使用
+09:28:22 [Adapter]: ExecuteTask:W88888888888
+09:28:22 [Adapter]: W88888888888
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteDelBroadband(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 295
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 579
+09:28:22 [Adapter]: CheckTask:W88888888888
+09:28:22 [Adapter]: CheckTask Succeed:W88888888888
+09:28:22 [Adapter]: UpdateTask:W88888888888
+09:28:22 [Adapter]: UnlockDispatch
+09:28:22 [Adapter]: Thread 0 get task W9999999999
+09:28:22 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:28:22 [Adapter]: ExecuteTask:W9999999999
+09:28:22 [Adapter]: W9999999999
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteDelIMS(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 412
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 582
+09:28:22 [Adapter]: CheckTask:W9999999999
+09:28:22 [Adapter]: CheckTask Succeed:W9999999999
+09:28:22 [Adapter]: UpdateTask:W9999999999
+09:28:22 [Adapter]: UnlockDispatch
+09:28:22 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:28:32 [Adapter]: Thread 0 get task W99999998888
+09:28:32 [Adapter]: ExecuteTask:W99999998888
+09:28:32 [Adapter]: W99999998888
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 YWT.Tl1Wrapper.BellTl1Wrapper.ExecuteDelOnu(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper_Bell\BellTl1Wrapper.cs:行号 505
+   在 YWT.Tl1Wrapper.Tl1Wrapper.ExecuteTask(Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 585
+09:28:32 [Adapter]: CheckTask:W99999998888
+09:28:32 [Adapter]: CheckTask Succeed:W99999998888
+09:28:32 [Adapter]: UpdateTask:W99999998888
+09:28:32 [Adapter]: UnlockDispatch
+09:28:32 [Adapter]: System.Data.SqlClient.SqlException: 用户 'sa' 登录失败。
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 2549
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4209
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4043
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(SqlConnection connection, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\SQLHelper\SQLHelper.cs:行号 4020
+   在 WatchDog.WatchDog.Feed() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\WatchDog\WatchDog.cs:行号 86
+   在 YWT.Tl1Wrapper.Tl1Wrapper.DoWork() 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\Adapters\YWTTl1Wrapper\Tl1Wrapper.cs:行号 191
+09:28:51 [AsyncComm]: Received[1]: 8

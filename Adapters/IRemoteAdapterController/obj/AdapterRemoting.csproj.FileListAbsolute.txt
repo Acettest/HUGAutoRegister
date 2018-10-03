@@ -1,0 +1,65 @@
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\DT_CHIZHOU\test\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\DT_CHIZHOU\test\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\DT_CHIZHOU\test\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\DT_CHIZHOU\test\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\DT_CHIZHOU\test\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+E:\项目资料\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+E:\项目资料\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+E:\项目资料\NEW\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+E:\项目资料\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+E:\项目资料\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+E:\项目资料\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+E:\项目资料\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+E:\项目资料\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+E:\项目资料\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+E:\项目资料\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+F:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+F:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+F:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+F:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+F:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+G:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+G:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+G:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+G:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+G:\DT_CHIZHOU\NEW\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\WLAN\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\WLAN\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\WLAN\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\WLAN\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\WLAN\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\WLAN系统\代码管理\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\WLAN系统\代码管理\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\WLAN系统\代码管理\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\WLAN系统\代码管理\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\WLAN系统\代码管理\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+G:\智能眼独立服务器版本\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+G:\智能眼独立服务器版本\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+G:\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+G:\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+G:\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+D:\WLAN系统\代码管理\智能眼独立服务器版本(20110801)\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\bin\Debug\AdapterRemoting.pdb
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.dll
+E:\Code Information\WLAN项目\智能眼独立服务器版本\Adapters\IRemoteAdapterController\obj\Debug\AdapterRemoting.pdb

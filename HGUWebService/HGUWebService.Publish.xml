@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\发布" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="resultTemplate.xml" publishTime="10/19/2016 15:26:50" />
+    <file relUrl="Web.config" publishTime="05/14/2018 20:53:17" />
+    <file relUrl="bin/HGUWebService.pdb" publishTime="05/14/2018 20:53:09" />
+    <file relUrl="bin/HGUIdl.dll" publishTime="05/14/2018 20:53:09" />
+    <file relUrl="requestTemplate.xml" publishTime="10/19/2016 15:26:50" />
+    <file relUrl="ChangeLog.txt" publishTime="10/19/2016 15:26:50" />
+    <file relUrl="bin/HGUIdl.pdb" publishTime="05/14/2018 20:53:09" />
+    <file relUrl="HGUWebService.asmx" publishTime="10/19/2016 15:26:50" />
+    <file relUrl="bin/HGUWebService.dll" publishTime="05/14/2018 20:53:10" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,219 @@
+﻿2017-11-16 16:25:27
+-------------------------------------------------------------------------
+<?xml version="1.0" encoding="utf-8" ?>
+<BODY>
+	<TaskID>TK_12310010069441_20171116160440</TaskID>
+	<TaskType>RelocateBroadband</TaskType>
+	<City>芜湖</City>
+	<Manufacturer>华为</Manufacturer>
+	<OMCName>芜湖GPON</OMCName>
+	<OLTID>10.211.112.12</OLTID>
+	<PONID>NA-0-7-0</PONID>
+	<ONUID>34553151840420000000</ONUID>
+	<MVLAN>3700</MVLAN>
+	<SVLAN>2289</SVLAN>
+	<CVLAN>2722</CVLAN>
+	<PhoneNumber>13866365373</PhoneNumber>
+	<FENUMBER>4</FENUMBER>
+	<POTSNUMBER>1</POTSNUMBER>
+	<OldCity>芜湖</OldCity>
+	<OldManufacturer>华为</OldManufacturer>
+	<OldOMCName>芜湖GPON</OldOMCName>
+	<OldOLTID>10.211.112.19</OldOLTID>
+	<OldPONID>NA-0-4-0</OldPONID>
+	<OldONUID>34553151840420000000</OldONUID>
+	<OldMVLAN>3700</OldMVLAN>
+	<OldSVLAN>2265</OldSVLAN>
+	<OldCVLAN>2715</OldCVLAN>
+	<OldPhoneNumber>13866365373</OldPhoneNumber>
+	<OldFENUMBER>4</OldFENUMBER>
+	<OldPOTSNUMBER>1</OldPOTSNUMBER>
+	<IsContainIMS>N</IsContainIMS>
+	<IMSSvlan>0</IMSSvlan>
+	<IMSCvlan>0</IMSCvlan>
+</BODY>
+
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(String connectionString, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLHelper.cs:行号 1557
+   在 HGU.Idl.SQLUtil.CheckOMC(String conn, String city, String manufacturer, String omcName) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLUtil.cs:行号 405
+   在 HGU.WebService.HGUWebService.RelocateTask(String xml) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUWebService\HGUWebService.asmx.cs:行号 352
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+2017-11-16 16:26:14
+-------------------------------------------------------------------------
+<?xml version="1.0" encoding="utf-8" ?>
+<BODY>
+	<TaskID>TK_12310010069441_20171116160440</TaskID>
+	<TaskType>RelocateBroadband</TaskType>
+	<City>芜湖</City>
+	<Manufacturer>华为</Manufacturer>
+	<OMCName>芜湖GPON</OMCName>
+	<OLTID>10.211.112.12</OLTID>
+	<PONID>NA-0-7-0</PONID>
+	<ONUID>34553151840420000000</ONUID>
+	<MVLAN>3700</MVLAN>
+	<SVLAN>2289</SVLAN>
+	<CVLAN>2722</CVLAN>
+	<PhoneNumber>13866365373</PhoneNumber>
+	<FENUMBER>4</FENUMBER>
+	<POTSNUMBER>1</POTSNUMBER>
+	<OldCity>芜湖</OldCity>
+	<OldManufacturer>华为</OldManufacturer>
+	<OldOMCName>芜湖GPON</OldOMCName>
+	<OldOLTID>10.211.112.19</OldOLTID>
+	<OldPONID>NA-0-4-0</OldPONID>
+	<OldONUID>34553151840420000000</OldONUID>
+	<OldMVLAN>3700</OldMVLAN>
+	<OldSVLAN>2265</OldSVLAN>
+	<OldCVLAN>2715</OldCVLAN>
+	<OldPhoneNumber>13866365373</OldPhoneNumber>
+	<OldFENUMBER>4</OldFENUMBER>
+	<OldPOTSNUMBER>1</OldPOTSNUMBER>
+	<IsContainIMS>N</IsContainIMS>
+	<IMSSvlan>0</IMSSvlan>
+	<IMSCvlan>0</IMSCvlan>
+</BODY>
+
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.FillDataset(String connectionString, CommandType commandType, String commandText, DataSet dataSet, String[] tableNames) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLHelper.cs:行号 1557
+   在 HGU.Idl.SQLUtil.CheckOMC(String conn, String city, String manufacturer, String omcName) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLUtil.cs:行号 405
+   在 HGU.WebService.HGUWebService.RelocateTask(String xml) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUWebService\HGUWebService.asmx.cs:行号 352
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+2017-11-16 16:30:24
+-------------------------------------------------------------------------
+<?xml version="1.0" encoding="utf-8" ?>
+<BODY>
+	<TaskID>TK_12310010069441_20171116160440</TaskID>
+	<TaskType>RelocateBroadband</TaskType>
+	<City>芜湖</City>
+	<Manufacturer>华为</Manufacturer>
+	<OMCName>芜湖GPON</OMCName>
+	<OLTID>10.211.112.12</OLTID>
+	<PONID>NA-0-7-0</PONID>
+	<ONUID>34553151840420000000</ONUID>
+	<MVLAN>3700</MVLAN>
+	<SVLAN>2289</SVLAN>
+	<CVLAN>2722</CVLAN>
+	<PhoneNumber>13866365373</PhoneNumber>
+	<FENUMBER>4</FENUMBER>
+	<POTSNUMBER>1</POTSNUMBER>
+	<OldCity>芜湖</OldCity>
+	<OldManufacturer>华为</OldManufacturer>
+	<OldOMCName>芜湖GPON</OldOMCName>
+	<OldOLTID>10.211.112.19</OldOLTID>
+	<OldPONID>NA-0-4-0</OldPONID>
+	<OldONUID>34553151840420000000</OldONUID>
+	<OldMVLAN>3700</OldMVLAN>
+	<OldSVLAN>2265</OldSVLAN>
+	<OldCVLAN>2715</OldCVLAN>
+	<OldPhoneNumber>13866365373</OldPhoneNumber>
+	<OldFENUMBER>4</OldFENUMBER>
+	<OldPOTSNUMBER>1</OldPOTSNUMBER>
+	<IsContainIMS>N</IsContainIMS>
+	<IMSSvlan>0</IMSSvlan>
+	<IMSCvlan>0</IMSCvlan>
+</BODY>
+
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLHelper.cs:行号 249
+   在 HGU.Idl.SQLUtil.ExecProc(String conn, String proName, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLUtil.cs:行号 45
+   在 HGU.Idl.SQLUtil.InsertRelocateTask(String conn, String taskID, String taskType, String city, String manufacturer, String omcName, String oltID, String ponID, String onuID, String phone, Int32 svlan, Int32 cvlan, Int32 mvlan, Int32 feNumber, Int32 potsNumber, String oldCity, String oldManufacturer, String oldOmcName, String oldOltID, String oldPonID, String oldOnuID, String oldPhone, Int32 oldSvlan, Int32 oldCvlan, Int32 oldmvlan, Int32 oldFeNumber, Int32 oldPotsNumber, String IsContainIMS, Int32 imsSvlan, Int32 imsCvlan) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLUtil.cs:行号 181
+   在 HGU.WebService.HGUWebService.RelocateTask(String xml) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUWebService\HGUWebService.asmx.cs:行号 359
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+2017-11-16 16:34:51
+-------------------------------------------------------------------------
+<?xml version="1.0" encoding="utf-8" ?>
+<BODY>
+	<TaskID>TK_12310010069441_20171116160440</TaskID>
+	<TaskType>RelocateBroadband</TaskType>
+	<City>芜湖</City>
+	<Manufacturer>华为</Manufacturer>
+	<OMCName>芜湖GPON</OMCName>
+	<OLTID>10.211.112.12</OLTID>
+	<PONID>NA-0-7-0</PONID>
+	<ONUID>34553151840420000000</ONUID>
+	<MVLAN>3700</MVLAN>
+	<SVLAN>2289</SVLAN>
+	<CVLAN>2722</CVLAN>
+	<PhoneNumber>13866365373</PhoneNumber>
+	<FENUMBER>4</FENUMBER>
+	<POTSNUMBER>1</POTSNUMBER>
+	<OldCity>芜湖</OldCity>
+	<OldManufacturer>华为</OldManufacturer>
+	<OldOMCName>芜湖GPON</OldOMCName>
+	<OldOLTID>10.211.112.19</OldOLTID>
+	<OldPONID>NA-0-4-0</OldPONID>
+	<OldONUID>34553151840420000000</OldONUID>
+	<OldMVLAN>3700</OldMVLAN>
+	<OldSVLAN>2265</OldSVLAN>
+	<OldCVLAN>2715</OldCVLAN>
+	<OldPhoneNumber>13866365373</OldPhoneNumber>
+	<OldFENUMBER>4</OldFENUMBER>
+	<OldPOTSNUMBER>1</OldPOTSNUMBER>
+	<IsContainIMS>N</IsContainIMS>
+	<IMSSvlan>0</IMSSvlan>
+	<IMSCvlan>0</IMSCvlan>
+</BODY>
+
+System.Data.SqlClient.SqlException (0x80131904): 找不到存储过程 'spInsertRelocateTask'。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLHelper.cs:行号 336
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLHelper.cs:行号 252
+   在 HGU.Idl.SQLUtil.ExecProc(String conn, String proName, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLUtil.cs:行号 45
+   在 HGU.Idl.SQLUtil.InsertRelocateTask(String conn, String taskID, String taskType, String city, String manufacturer, String omcName, String oltID, String ponID, String onuID, String phone, Int32 svlan, Int32 cvlan, Int32 mvlan, Int32 feNumber, Int32 potsNumber, String oldCity, String oldManufacturer, String oldOmcName, String oldOltID, String oldPonID, String oldOnuID, String oldPhone, Int32 oldSvlan, Int32 oldCvlan, Int32 oldmvlan, Int32 oldFeNumber, Int32 oldPotsNumber, String IsContainIMS, Int32 imsSvlan, Int32 imsCvlan) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUIdl\SQLUtil.cs:行号 181
+   在 HGU.WebService.HGUWebService.RelocateTask(String xml) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\HGUWebService\HGUWebService.asmx.cs:行号 359
+ClientConnectionId:9f622de4-37a4-4b5a-96e4-360b21afdad5
+Error Number:2812,State:62,Class:16
+

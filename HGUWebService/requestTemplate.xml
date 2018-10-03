@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Body>
+  <!--工单号-->
+  <TaskID>W123456789</TaskID>
+  <!--工单类型-->
+  <TaskType>NewIMS</TaskType>
+  <!--业务类型
+  <BusinessType>宽带新装</BusinessType>-->
+  <!--地市-->
+  <City>合肥</City>
+  <!--厂家-->
+  <Manufacturer>中兴</Manufacturer>
+  <!--网管名称-->
+  <OMCName>合肥中兴GPON</OMCName>
+  <!--OLT IP-->
+  <OLTID>10.0.0.0</OLTID>
+  <!--PON口-->
+  <PONID>1-1-1-1</PONID>
+  <!--ONU LOID-->
+  <ONUID>1234567890</ONUID>
+  <!--ONU类型-->
+  <ONUType>ZTEG-F620</ONUType>
+  <!--ONU端口-->
+  <ONUPort>1-1-1-1</ONUPort>
+  <!--SVLAN-->
+  <SVLAN>2222</SVLAN>
+  <!--CVLAN-->
+  <CVLAN>3333</CVLAN>
+  <!--电话号码-->
+  <PhoneNumber>13965009011/+865512703173</PhoneNumber>
+  <!--SIP注册服务器-->
+  <SIPRegDM>ims.ah.chinamobile.com</SIPRegDM>
+  <!--SIP用户端口对应的用户-->
+  <SIPUserName>+865582703173@ims.ah.chinamobile.com</SIPUserName>
+  <!--SIP用户端口对应的用户密码-->
+  <SIPUserPWD>abc123</SIPUserPWD>
+  <TaskInfo>
+  </TaskInfo>
+</Body>

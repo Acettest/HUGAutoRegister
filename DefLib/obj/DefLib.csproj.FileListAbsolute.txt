@@ -1,0 +1,61 @@
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\DefLib\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\DefLib\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\DefLib\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\DefLib\obj\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\DefLib\obj\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\obj\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\obj\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\bin\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\bin\Release\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\obj\Release\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\obj\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\DefLib\obj\Release\DefLib.pdb
+E:\项目资料\DT_CHIZHOU\NEW\DefLib\bin\Debug\DefLib.dll
+E:\项目资料\DT_CHIZHOU\NEW\DefLib\bin\Debug\DefLib.pdb
+E:\项目资料\DT_CHIZHOU\NEW\DefLib\obj\Debug\ResolveAssemblyReference.cache
+E:\项目资料\DT_CHIZHOU\NEW\DefLib\obj\Debug\DefLib.dll
+E:\项目资料\DT_CHIZHOU\NEW\DefLib\obj\Debug\DefLib.pdb
+F:\DT_CHIZHOU\NEW\DefLib\bin\Debug\DefLib.dll
+F:\DT_CHIZHOU\NEW\DefLib\bin\Debug\DefLib.pdb
+F:\DT_CHIZHOU\NEW\DefLib\obj\Debug\ResolveAssemblyReference.cache
+F:\DT_CHIZHOU\NEW\DefLib\obj\Debug\DefLib.dll
+F:\DT_CHIZHOU\NEW\DefLib\obj\Debug\DefLib.pdb
+G:\DT_CHIZHOU\NEW\DefLib\bin\Debug\DefLib.dll
+G:\DT_CHIZHOU\NEW\DefLib\bin\Debug\DefLib.pdb
+G:\DT_CHIZHOU\NEW\DefLib\obj\Debug\ResolveAssemblyReference.cache
+G:\DT_CHIZHOU\NEW\DefLib\obj\Debug\DefLib.dll
+G:\DT_CHIZHOU\NEW\DefLib\obj\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\DefLib\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\DefLib\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\DefLib\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\DefLib\obj\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\DefLib\obj\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\obj\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\obj\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\bin\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\bin\Release\DefLib.pdb
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\obj\Release\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\obj\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\安徽垃圾短信平台三期\源代码\DefLib\obj\Release\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\Debug\C5.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\Debug\C5.xml
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Debug\C5.dll
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\通用组件\DefLib\bin\x86\Debug\C5.xml
+D:\My Documents\NEW\项目管理\通用组件\DefLib\obj\x86\Debug\ResolveAssemblyReference.cache

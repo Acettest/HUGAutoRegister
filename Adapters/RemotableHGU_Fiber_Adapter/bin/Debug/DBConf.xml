@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="SysDB">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="hostname" type="xs:string" minOccurs="0" />
+                <xs:element name="username" type="xs:string" minOccurs="0" />
+                <xs:element name="userpass" type="xs:string" minOccurs="0" />
+                <xs:element name="database" type="xs:string" minOccurs="0" />
+                <xs:element name="businesstype" type="xs:string" minOccurs="0" />
+                <xs:element name="manufacturer" type="xs:string" minOccurs="0" />
+                <xs:element name="activetable" type="xs:string" minOccurs="0" />
+                <xs:element name="resumetable" type="xs:string" minOccurs="0" />
+                <xs:element name="maxidtable" type="xs:string" minOccurs="0" />
+                <xs:element name="uniteactivetable" type="xs:string" minOccurs="0" />
+                <xs:element name="uniteresumetable" type="xs:string" minOccurs="0" />
+                <xs:element name="unitegarbagetable" type="xs:string" minOccurs="0" />
+                <xs:element name="unitetkactivetable" type="xs:string" minOccurs="0" />
+                <xs:element name="unitetkresumetable" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="OMCInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="hostname" type="xs:string" minOccurs="0" />
+                <xs:element name="database" type="xs:string" minOccurs="0" />
+                <xs:element name="username" type="xs:string" minOccurs="0" />
+                <xs:element name="password" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SysDB>
+    <name>45-CF-9B-73-6A-13-91-C9-D3-04-65-BD-11-67-25-69</name>
+    <hostname>B5-89-0E-35-4F-8C-34-54</hostname>
+    <username>FD-F7-C1-CB-4F-1F-30-DB</username>
+    <userpass>C5-38-65-66-8E-CD-2F-E4</userpass>
+    <database>E0-D3-D4-D0-0F-45-F3-82</database>
+    <businesstype>DA-69-11-B2-A7-42-4B-6D</businesstype>
+    <manufacturer>05-63-AA-3C-42-F2-22-0B</manufacturer>
+    <activetable>
+    </activetable>
+    <resumetable>
+    </resumetable>
+    <maxidtable>
+    </maxidtable>
+    <uniteactivetable>BD-BA-30-6B-B0-6A-2E-AB-5A-66-FE-04-4C-9F-A5-4D-05-1A-39-9F-9F-DC-25-20</uniteactivetable>
+    <uniteresumetable>BD-BA-30-6B-B0-6A-2E-AB-80-CB-BB-15-90-63-2C-73-02-E7-98-16-17-6F-E5-40</uniteresumetable>
+    <unitegarbagetable>BD-BA-30-6B-B0-6A-2E-AB-96-D5-D3-04-9F-DA-04-ED-45-54-59-51-9B-B7-00-B8</unitegarbagetable>
+    <unitetkactivetable>BD-BA-30-6B-B0-6A-2E-AB-55-A0-11-2E-0B-9B-58-47-8D-F4-9A-FD-81-EC-A5-C6</unitetkactivetable>
+    <unitetkresumetable>BD-BA-30-6B-B0-6A-2E-AB-7D-79-5D-68-3D-35-61-4B-AE-05-8F-2E-79-91-5A-1D</unitetkresumetable>
+  </SysDB>
+  <OMCInfo>
+    <name>CB-D6-38-CD-DE-D6-81-CC-D4-D6-94-3A-5C-F2-B8-5F</name>
+    <hostname>CB-D6-38-CD-DE-D6-81-CC-D4-D6-94-3A-5C-F2-B8-5F</hostname>
+    <database>
+    </database>
+    <username>
+    </username>
+    <password>
+    </password>
+  </OMCInfo>
+</NewDataSet>

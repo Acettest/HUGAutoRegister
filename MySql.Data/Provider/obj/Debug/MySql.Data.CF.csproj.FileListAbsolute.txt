@@ -1,0 +1,7 @@
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\bin\Debug\MySql.Data.CF.dll
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\bin\Debug\MySql.Data.CF.pdb
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\ResolveAssemblyReference.cache
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.CF.Properties.Resources.resources
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.CF.csproj.GenerateResource.Cache
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.CF.dll
+E:\Download\Soft\mysql-connector-net-6.3.4-src\MySql.Data\Provider\obj\Debug\MySql.Data.CF.pdb

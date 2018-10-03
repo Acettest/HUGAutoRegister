@@ -1,0 +1,4 @@
+.\bin\Debug\PreProcess.exe
+.\bin\Debug\PreProcess.pdb
+obj\Debug\PreProcess.exe
+obj\Debug\PreProcess.pdb

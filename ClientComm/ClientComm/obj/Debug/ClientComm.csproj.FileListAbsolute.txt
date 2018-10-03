@@ -1,0 +1,70 @@
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\C5.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\C5.xml
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+E:\Code Information\宽带项目\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+E:\Code Information\宽带项目\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+E:\Code Information\宽带项目\ClientComm\ClientComm\bin\Debug\DefLib.dll
+E:\Code Information\宽带项目\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+E:\Code Information\宽带项目\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+E:\Code Information\宽带项目\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+E:\Code Information\宽带项目\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+D:\ftth\new\代码\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+D:\ftth\new\代码\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+D:\ftth\new\代码\ClientComm\ClientComm\bin\Debug\DefLib.dll
+D:\ftth\new\代码\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+D:\ftth\new\代码\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+D:\ftth\new\代码\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+D:\ftth\new\代码\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\ClientComm\ClientComm\bin\Debug\DefLib.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+H:\安徽项目\安徽传输项目\一网通自动激活\YWT\ClientComm\ClientComm\obj\Debug\ClientComm.csprojResolveAssemblyReference.cache
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\ClientComm\ClientComm\bin\Debug\DefLib.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\ClientComm\ClientComm\obj\Debug\ClientComm.csprojResolveAssemblyReference.cache
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+H:\安徽项目\安徽移动一网通自动激活系统\trunk\src\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\ClientComm\ClientComm\bin\Debug\DefLib.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\ClientComm\ClientComm\bin\Debug\DefLib.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\ClientComm\ClientComm\obj\Debug\ClientComm.csprojResolveAssemblyReference.cache
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+E:\Work\TechQuick\安徽移动HGU自动激活系统\trunk\src\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\bin\Debug\DefLib.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.csprojAssemblyReference.cache
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.csproj.CoreCompileInputs.cache
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.csproj.CopyComplete
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+V:\刘保健工作交接\lbj\程序\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\bin\Debug\DefLib.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.csprojAssemblyReference.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.csproj.CoreCompileInputs.cache
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.csproj.CopyComplete
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+C:\工作交接\安徽移动HGU自动激活系统\trunk\src实际使用\ClientComm\ClientComm\obj\Debug\ClientComm.pdb

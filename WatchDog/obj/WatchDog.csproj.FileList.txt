@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\WatchDog.dll
+bin\Debug\WatchDog.pdb
+bin\Debug\MD5Encrypt.dll
+bin\Debug\MySql.Data.dll
+bin\Debug\SQLHelper.dll
+bin\Debug\SQLHelper.pdb
+bin\Debug\MySql.Data.pdb
+bin\Debug\MD5Encrypt.pdb
+bin\Debug\MD5Encrypt.xml
+obj\Debug\WatchDog.dll
+obj\Debug\WatchDog.pdb

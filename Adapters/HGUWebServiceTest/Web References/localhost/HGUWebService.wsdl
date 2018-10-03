@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendTask">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendTaskResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendTaskResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RollbackTask">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RollbackTaskResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RollbackTaskResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RelocateTask">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RelocateTaskResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RelocateTaskResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendTaskSoapIn">
+    <wsdl:part name="parameters" element="tns:SendTask" />
+  </wsdl:message>
+  <wsdl:message name="SendTaskSoapOut">
+    <wsdl:part name="parameters" element="tns:SendTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="RollbackTaskSoapIn">
+    <wsdl:part name="parameters" element="tns:RollbackTask" />
+  </wsdl:message>
+  <wsdl:message name="RollbackTaskSoapOut">
+    <wsdl:part name="parameters" element="tns:RollbackTaskResponse" />
+  </wsdl:message>
+  <wsdl:message name="RelocateTaskSoapIn">
+    <wsdl:part name="parameters" element="tns:RelocateTask" />
+  </wsdl:message>
+  <wsdl:message name="RelocateTaskSoapOut">
+    <wsdl:part name="parameters" element="tns:RelocateTaskResponse" />
+  </wsdl:message>
+  <wsdl:portType name="HGUWebServiceSoap">
+    <wsdl:operation name="SendTask">
+      <wsdl:input message="tns:SendTaskSoapIn" />
+      <wsdl:output message="tns:SendTaskSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RollbackTask">
+      <wsdl:input message="tns:RollbackTaskSoapIn" />
+      <wsdl:output message="tns:RollbackTaskSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RelocateTask">
+      <wsdl:input message="tns:RelocateTaskSoapIn" />
+      <wsdl:output message="tns:RelocateTaskSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HGUWebServiceSoap" type="tns:HGUWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendTask">
+      <soap:operation soapAction="http://tempuri.org/SendTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RollbackTask">
+      <soap:operation soapAction="http://tempuri.org/RollbackTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RelocateTask">
+      <soap:operation soapAction="http://tempuri.org/RelocateTask" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="HGUWebServiceSoap12" type="tns:HGUWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendTask">
+      <soap12:operation soapAction="http://tempuri.org/SendTask" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RollbackTask">
+      <soap12:operation soapAction="http://tempuri.org/RollbackTask" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RelocateTask">
+      <soap12:operation soapAction="http://tempuri.org/RelocateTask" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HGUWebService">
+    <wsdl:port name="HGUWebServiceSoap" binding="tns:HGUWebServiceSoap">
+      <soap:address location="http://localhost:5221/HGUWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="HGUWebServiceSoap12" binding="tns:HGUWebServiceSoap12">
+      <soap12:address location="http://localhost:5221/HGUWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

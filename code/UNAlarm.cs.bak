@@ -1,0 +1,499 @@
+using System;
+using System.Drawing;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Data;
+using System.Data.SqlClient;
+using System.Threading;
+using System.IO;
+using Microsoft.ApplicationBlocks.Data;
+using System.Diagnostics;
+using System.Text;
+
+namespace TK_AlarmManagement
+{
+	/// <summary>
+	/// Form1 的摘要说明。
+	/// </summary>
+	public class UNAlarmServer : System.Windows.Forms.Form, ICommandHandler
+	{
+        private System.Windows.Forms.MainMenu mainMenu1;
+
+		/// <summary>
+		/// 记录当前用户操作
+		/// </summary>
+		public bool bRun = false;
+
+		/// <summary>
+		/// TCPServer
+        /// </summary>
+
+        #region 私有成员
+        private object m_lockLog = new int();
+		private System.Windows.Forms.MenuItem menuSystem;
+		private System.Windows.Forms.MenuItem menuOpen;
+        private System.Windows.Forms.MenuItem menuStop;
+        private IContainer components;
+        private System.Windows.Forms.Timer Timer_Log;
+
+		private bool m_Disposed = false;
+        private ListBox TextLog;
+
+        private Queue m_Logs = new Queue();
+        private List<string> m_Log4Controller = new List<string>();
+
+        private string m_StartArg = string.Empty;
+        #endregion
+
+        #region 公共属性
+        public string StartArg
+        {
+            get { return m_StartArg; }
+            set { m_StartArg = value; }
+        }
+        #endregion
+
+        public UNAlarmServer()
+		{
+			//
+			// Windows 窗体设计器支持所必需的
+			//
+			InitializeComponent();
+
+			//
+			// TODO: 在 InitializeComponent 调用后添加任何构造函数代码
+			//
+
+            Timer_Log.Tick += new EventHandler(Timer_Log_Tick);
+
+            this.FormClosing += new FormClosingEventHandler(UNAlarmServer_FormClosing);
+
+            Dictionary<Constants.TK_CommandType, byte> empty = new Dictionary<Constants.TK_CommandType, byte>();
+            CommandProcessor.instance().registerReportHandler(Constants.TK_CommandType.SERVER_GETRUNTIMEINFO, this, empty);
+            CommandProcessor.instance().registerReportHandler(Constants.TK_CommandType.SERVER_GETCURLOG, this, empty);
+            CommandProcessor.instance().registerReportHandler(Constants.TK_CommandType.SERVER_GETLOGFILES, this, empty);
+        }
+
+        private void UNAlarmServer_Load(object sender, System.EventArgs e)
+        {
+            AlarmManager.instance().LogReceived += new LogHandler(Main_LogReceived);
+
+            try
+            {
+                CommandProcessor.instance().Start(true); // as server
+                AlarmManager.instance().Prepare();
+
+                Timer_Log.Start();
+
+                #region 根据运行参数决定是否自动启动
+                if (m_StartArg.Trim().ToUpper() == "-START")
+                {
+                    try
+                    {
+                        Cursor = Cursors.WaitCursor;
+                        Run();
+
+                        menuOpen.Enabled = false;
+                        menuStop.Enabled = true;
+                    }
+                    finally
+                    {
+                        Cursor = Cursors.Default;
+                    }
+                }
+                #endregion
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("初始化告警管理服务时发生异常: " + ex.ToString());
+            }
+        }
+
+        void UNAlarmServer_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing && bRun)
+            {
+                if (DialogResult.No == MessageBox.Show("服务器正在运行,关闭将断开所有客户端及采集进程, 是否继续?",
+                    "请确认", MessageBoxButtons.YesNo, MessageBoxIcon.Stop, MessageBoxDefaultButton.Button2))
+                {
+                    e.Cancel = true;
+                    return;
+                }
+            }
+
+            Stop();
+            CommandProcessor.instance().unregisterReportHandler(Constants.TK_CommandType.SERVER_GETRUNTIMEINFO, this);
+            CommandProcessor.instance().unregisterReportHandler(Constants.TK_CommandType.SERVER_GETCURLOG, this);
+            CommandProcessor.instance().unregisterReportHandler(Constants.TK_CommandType.SERVER_GETLOGFILES, this);
+
+            CommManager.instance().Stop();
+            CommandProcessor.instance().Stop();
+        }
+
+        void Timer_Log_Tick(object sender, EventArgs e)
+        {
+            string[] ar = null;
+            lock (m_Logs.SyncRoot)
+            {
+                if (m_Logs.Count > 0)
+                {
+                    ar = new string[m_Logs.Count];
+                    m_Logs.CopyTo(ar, 0);
+                    m_Logs.Clear();
+                }
+            }
+
+            if (ar != null)
+            {
+                foreach (string s in ar)
+                {
+                    receiveLog(s);
+                }
+            }
+        }
+
+		/// <summary>
+		/// 清理所有正在使用的资源。
+		/// </summary>
+		protected override void Dispose( bool disposing )
+		{
+			m_Disposed = true;
+
+            if (disposing)
+			{
+				if (components != null) 
+				{
+					components.Dispose();
+				}
+			}
+			base.Dispose( disposing );
+		}
+
+		#region Windows 窗体设计器生成的代码
+		/// <summary>
+		/// 设计器支持所需的方法 - 不要使用代码编辑器修改
+		/// 此方法的内容。
+		/// </summary>
+		private void InitializeComponent()
+		{
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UNAlarmServer));
+            this.mainMenu1 = new System.Windows.Forms.MainMenu(this.components);
+            this.menuSystem = new System.Windows.Forms.MenuItem();
+            this.menuOpen = new System.Windows.Forms.MenuItem();
+            this.menuStop = new System.Windows.Forms.MenuItem();
+            this.Timer_Log = new System.Windows.Forms.Timer(this.components);
+            this.TextLog = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // mainMenu1
+            // 
+            this.mainMenu1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.menuSystem});
+            // 
+            // menuSystem
+            // 
+            this.menuSystem.Index = 0;
+            this.menuSystem.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
+            this.menuOpen,
+            this.menuStop});
+            this.menuSystem.Text = "系统";
+            // 
+            // menuOpen
+            // 
+            this.menuOpen.Index = 0;
+            this.menuOpen.Text = "开始";
+            this.menuOpen.Click += new System.EventHandler(this.menuOpen_Click);
+            // 
+            // menuStop
+            // 
+            this.menuStop.Enabled = false;
+            this.menuStop.Index = 1;
+            this.menuStop.Text = "停止";
+            this.menuStop.Click += new System.EventHandler(this.menuStop_Click);
+            // 
+            // Timer_Log
+            // 
+            this.Timer_Log.Interval = 5000;
+            // 
+            // TextLog
+            // 
+            this.TextLog.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TextLog.FormattingEnabled = true;
+            this.TextLog.HorizontalScrollbar = true;
+            this.TextLog.ItemHeight = 12;
+            this.TextLog.Location = new System.Drawing.Point(0, 0);
+            this.TextLog.Name = "TextLog";
+            this.TextLog.ScrollAlwaysVisible = true;
+            this.TextLog.Size = new System.Drawing.Size(360, 340);
+            this.TextLog.TabIndex = 1;
+            // 
+            // UNAlarmServer
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
+            this.ClientSize = new System.Drawing.Size(360, 346);
+            this.Controls.Add(this.TextLog);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Menu = this.mainMenu1;
+            this.Name = "UNAlarmServer";
+            this.Text = "数据告警监控服务器";
+            this.Load += new System.EventHandler(this.UNAlarmServer_Load);
+            this.ResumeLayout(false);
+
+		}
+		#endregion
+
+		/// <summary>
+		/// 应用程序的主入口点。
+		/// </summary>
+		[STAThread]
+		static void Main(string[] args) 
+		{
+            Application.ThreadException += new ThreadExceptionEventHandler(Application_ThreadException);
+
+            UNAlarmServer f = new UNAlarmServer();
+            if (args.Length > 0)
+                f.StartArg = args[0];
+
+            Application.Run(f);
+		}
+
+        static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
+        {
+            try
+            {
+                MessageBox.Show(e.Exception.ToString());
+            }
+            catch
+            {
+            }
+        }
+
+        #region 启停菜单
+        private void menuOpen_Click(object sender, System.EventArgs e)
+		{
+            try
+            {
+                Cursor = Cursors.WaitCursor;
+                Run();
+
+                menuOpen.Enabled = false;
+                menuStop.Enabled = true;
+            }
+            finally
+            {
+                Cursor = Cursors.Default;
+            }
+		}
+
+        private void menuStop_Click(object sender, System.EventArgs e)
+        {
+            Stop();
+        }
+        #endregion
+
+        /// <summary>
+		/// 启动服务器
+		/// </summary>
+		private void Run()
+		{
+			bRun = true;
+			this.Cursor = Cursors.WaitCursor;
+
+            UserManager.instance().LogReceived += new LogHandler(Main_LogReceived);
+
+			AlarmManager.instance().Start();
+			UserManager.instance().Start();
+
+			menuOpen.Enabled = false;
+			this.Cursor = Cursors.Default;
+		}
+
+        /// <summary>
+        /// 关闭服务器
+        /// </summary>
+        public void Stop()
+        {
+            //if (!bRun)
+            //    return;
+
+            this.Cursor = Cursors.WaitCursor;
+
+            UserManager.instance().Stop();
+            AlarmManager.instance().Stop();
+
+            UserManager.instance().LogReceived -= new LogHandler(Main_LogReceived);
+
+            this.Cursor = Cursors.Default;
+            menuStop.Enabled = false;
+            menuOpen.Enabled = true;
+
+            bRun = false;
+        }
+
+        #region 日志相关
+        private delegate void DelegateLog(string log);
+		private void Main_LogReceived(string sLog)
+		{
+			if (this.m_Disposed)
+				return;
+
+            lock (m_Logs.SyncRoot)
+                m_Logs.Enqueue(sLog);
+		}
+
+		private void receiveLog(string sLog)
+		{
+            try
+            {
+                string sPath = ".\\log\\";
+                sPath += DateTime.Today.ToString("yy_MM_dd") + "_log.txt";
+                string log = DateTime.Now.ToString("HH:mm:ss");
+                log += "\t" + sLog + "\r\n";
+
+                using (StreamWriter sw = File.AppendText(sPath))
+                {
+                    sw.Write(log);
+                }
+
+                if (TextLog.Items.Count > 300)
+                {
+                    TextLog.Items.Clear();
+                }
+
+                TextLog.Items.Insert(0, log);
+
+                lock (m_Log4Controller)
+                {
+                    if (m_Log4Controller.Count == 1000)
+                    {
+                        for (int i = 0; i < 100; ++i)
+                            m_Log4Controller.RemoveAt(0);
+                    }
+
+                    m_Log4Controller.Add(log);
+                }
+            }
+
+            catch (Exception ex)
+            {
+                try
+                {
+                    TextLog.Items.Insert(0, ex.ToString());
+                }
+                catch
+                {
+                }
+            }
+            finally
+            {
+            }
+        }
+        #endregion
+
+        #region ICommandHandler 成员
+
+        public void handleCommand(ICommunicationMessage message)
+        {
+            CommandMsg resp = new CommandMsg();
+            resp.TK_CommandType = Constants.TK_CommandType.RESPONSE;
+            resp.SeqID = CommandProcessor.AllocateID();
+            resp.Content[Constants.MSG_PARANAME_RESPONSE_TO] = message.SeqID;
+            try
+            {
+                if (message.Content.Contains("ClientID"))
+                    resp.Content["ClientID"] = message.Content["ClientID"];
+                else
+                    throw new Exception("No ClientID in incoming package.");
+
+                switch (message.TK_CommandType)
+                {
+                    case Constants.TK_CommandType.SERVER_GETRUNTIMEINFO:
+                        {
+                            Process p = Process.GetCurrentProcess();
+                            resp.Content["PROCESSID"] = p.Id.ToString();
+                            resp.Content["THREADCOUNT"] = p.Threads.Count.ToString();
+                            resp.Content["PHYMEMORY"] = p.WorkingSet64.ToString();
+                            resp.Content["STATUS"] = AlarmManager.instance().GetStatus().ToString();
+                            resp.Content["STARTTIME"] = p.StartTime.ToString();
+                            resp.Content["CPUTIME"] = ((long)p.TotalProcessorTime.TotalMinutes).ToString();
+                            resp.Content["ALARMCLIENTS"] = AlarmManager.instance().GetAlarmClientsNum().ToString();
+                            resp.Content["ADAPTERCLIENTS"] = AlarmManager.instance().GetAdapterClientsNum().ToString();
+                            resp.Content["ACTIVEALARMNUM"] = AlarmManager.instance().GetActiveAlarmsNum().ToString();
+                            resp.Content[Constants.MSG_PARANAME_RESULT] = "OK";
+                        }
+                        break;                    
+                    case Constants.TK_CommandType.SERVER_GETCURLOG:
+                        {
+                            StringBuilder sb = new StringBuilder();
+                            foreach (string s in GetCurrentLog())
+                            {
+                                sb.Append(s);
+                            }
+
+                            resp.Content["CURLOG"] = sb.ToString();
+                            resp.Content[Constants.MSG_PARANAME_RESULT] = "OK";
+                        }
+                        break;
+                    case Constants.TK_CommandType.SERVER_GETLOGFILES:
+                        {
+                            StringBuilder sb = new StringBuilder();
+                            foreach (string s in GetLogFiles())
+                            {
+                                sb.Append(s);
+                                sb.Append(",");
+                            }
+
+                            if (sb.Length > 0)
+                                sb.Remove(sb.Length - 1, 1);
+
+                            resp.Content["LOGFILES"] = sb.ToString();
+                            resp.Content[Constants.MSG_PARANAME_RESULT] = "OK";
+                        }
+                        break;
+                    default:
+                        break;
+                }
+
+                CommandProcessor.instance().DispatchCommand(resp);
+            }
+            catch (Exception ex)
+            {
+                Main_LogReceived(ex.ToString());
+            }
+        }
+
+        #endregion
+
+        #region IRemoteController 成员
+        public string[] GetCurrentLog()
+        {
+            lock (m_Log4Controller)
+            {
+                return m_Log4Controller.ToArray();
+            }
+        }
+
+        public List<string> GetLogFiles()
+        {
+            try
+            {
+                string path = AppDomain.CurrentDomain.BaseDirectory;
+                path += "log\\";
+
+                List<string> files = new List<string>(System.IO.Directory.GetFiles(path));
+                return files;
+            }
+            catch (Exception ex)
+            {
+                Main_LogReceived(ex.ToString());
+                return new List<string>();
+            }
+        }
+
+        #endregion
+
+    }
+}

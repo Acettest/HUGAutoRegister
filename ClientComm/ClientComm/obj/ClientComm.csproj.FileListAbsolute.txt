@@ -1,0 +1,139 @@
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\bin\Debug\C5.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\bin\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\bin\Debug\C5.xml
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\安徽移动交换网元集中监控\test\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Debug\C5.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Debug\C5.xml
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\obj\Release\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Release\ClientComm.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Release\ClientComm.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Release\C5.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Release\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Release\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\bin\Release\C5.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\obj\Release\ClientComm.dll
+D:\My Documents\NEW\项目管理\WLAN管理\NEW\ClientComm\ClientComm\obj\Release\ClientComm.pdb
+E:\项目资料\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+E:\项目资料\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+E:\项目资料\NEW\ClientComm\ClientComm\bin\Debug\C5.dll
+E:\项目资料\NEW\ClientComm\ClientComm\bin\Debug\DefLib.dll
+E:\项目资料\NEW\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+E:\项目资料\NEW\ClientComm\ClientComm\bin\Debug\C5.pdb
+E:\项目资料\NEW\ClientComm\ClientComm\bin\Debug\C5.xml
+E:\项目资料\NEW\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+E:\项目资料\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+E:\项目资料\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.dll
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\DefLib.dll
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.pdb
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.xml
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+E:\项目资料\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.dll
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\DefLib.dll
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.pdb
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.xml
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+F:\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.dll
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\DefLib.dll
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.pdb
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\bin\Debug\C5.xml
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+G:\DT_CHIZHOU\NEW\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+D:\WLAN\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+D:\WLAN\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+D:\WLAN\ClientComm\ClientComm\bin\Debug\C5.dll
+D:\WLAN\ClientComm\ClientComm\bin\Debug\DefLib.dll
+D:\WLAN\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+D:\WLAN\ClientComm\ClientComm\bin\Debug\C5.pdb
+D:\WLAN\ClientComm\ClientComm\bin\Debug\C5.xml
+D:\WLAN\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+D:\WLAN\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+D:\WLAN\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+C:\WLAN\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+C:\WLAN\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+C:\WLAN\ClientComm\ClientComm\bin\Debug\C5.dll
+C:\WLAN\ClientComm\ClientComm\bin\Debug\DefLib.dll
+C:\WLAN\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+C:\WLAN\ClientComm\ClientComm\bin\Debug\C5.pdb
+C:\WLAN\ClientComm\ClientComm\bin\Debug\C5.xml
+C:\WLAN\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+C:\WLAN\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+C:\WLAN\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\bin\Debug\C5.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\bin\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\bin\Debug\C5.xml
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+G:\智能眼独立服务器版本\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+G:\智能眼独立服务器版本\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+G:\智能眼独立服务器版本\ClientComm\ClientComm\bin\Debug\C5.dll
+G:\智能眼独立服务器版本\ClientComm\ClientComm\bin\Debug\DefLib.dll
+G:\智能眼独立服务器版本\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+G:\智能眼独立服务器版本\ClientComm\ClientComm\bin\Debug\C5.pdb
+G:\智能眼独立服务器版本\ClientComm\ClientComm\bin\Debug\C5.xml
+G:\智能眼独立服务器版本\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+G:\智能眼独立服务器版本\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+G:\智能眼独立服务器版本\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\bin\Debug\C5.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\bin\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\bin\Debug\C5.xml
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\WLAN管理\WLAN（可演示完整版）\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\C5.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\Debug\C5.xml
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\x86\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\x86\Debug\ClientComm.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\x86\Debug\C5.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\x86\Debug\DefLib.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\x86\Debug\DefLib.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\x86\Debug\C5.pdb
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\bin\x86\Debug\C5.xml
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\x86\Debug\ClientComm.dll
+D:\My Documents\NEW\项目管理\通用组件\ClientComm\ClientComm\obj\x86\Debug\ClientComm.pdb

@@ -1,0 +1,90 @@
+﻿2016-08-08 11:53:42
+-------------------------------------------------------------------------
+<?xml version="1.0" encoding="utf-8" ?>
+<Body>
+  <!--工单号-->
+  <TaskID>Test20160808115339227</TaskID>
+  <!--工单类型-->
+  <TaskType>NewBroadband</TaskType>
+  <!--地市-->
+  <City>合肥</City>
+  <!--厂家-->
+  <Manufacturer>中兴</Manufacturer>
+  <!--网管名称-->
+  <OMCName>合肥中兴GPON</OMCName>
+  <!--OLT IP-->
+  <OLTID>10.0.0.0</OLTID>
+  <!--PON口-->
+  <PONID>1-1-1-1</PONID>
+  <!--ONU LOID-->
+  <ONUID>12345678901234567891</ONUID>
+  <!--SVLAN-->
+  <SVLAN></SVLAN>
+  <!--CVLAN-->
+  <CVLAN></CVLAN>
+  <!--电话号码-->
+  <PhoneNumber>13965009011</PhoneNumber>
+ <!--MSVLAN-->
+  <MSVLAN></MSVLAN>
+ <!--MCVLAN-->
+  <MCVLAN></MCVLAN>
+ <!--FENUMBER-->
+  <FENUMBER></FENUMBER>
+ <!--POTSNumber -->
+  <POTSNUMBER></POTSNUMBER>
+</Body>
+
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 HGU.WebService.HGUWebService.SendTask(String xml) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\HGUWebService\HGUWebService.asmx.cs:行号 70
+
+2016-08-08 11:54:44
+-------------------------------------------------------------------------
+<?xml version="1.0" encoding="utf-8" ?>
+<Body>
+  <!--工单号-->
+  <TaskID>Test20160808115443902</TaskID>
+  <!--工单类型-->
+  <TaskType>DelONU</TaskType>
+  <!--地市-->
+  <City>合肥</City>
+  <!--厂家-->
+  <Manufacturer>中兴</Manufacturer>
+  <!--网管名称-->
+  <OMCName>合肥中兴GPON</OMCName>
+  <!--OLT IP-->
+  <OLTID>10.0.0.0</OLTID>
+  <!--PON口-->
+  <PONID>1-1-1-1</PONID>
+  <!--ONU LOID-->
+  <ONUID>12345678901234567891</ONUID>
+  <!--电话号码-->
+  <PhoneNumber>13965009011</PhoneNumber>
+<!--MSVLAN-->
+  <MSVLAN>1</MSVLAN>
+ <!--MCVLAN-->
+  <MCVLAN>1</MCVLAN>
+ <!--FENUMBER-->
+  <FENUMBER>0</FENUMBER>
+ <!--POTSNumber -->
+  <POTSNUMBER>0</POTSNUMBER>
+</Body>
+
+System.Data.SqlClient.SqlException (0x80131904): 从数据类型 nvarchar 转换为 int 时出错。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\HGUIdl\SQLHelper.cs:行号 336
+   在 Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\HGUIdl\SQLHelper.cs:行号 252
+   在 HGU.Idl.SQLUtil.ExecProc(String conn, String proName, SqlParameter[] commandParameters) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\HGUIdl\SQLUtil.cs:行号 45
+   在 HGU.Idl.SQLUtil.InsertTask(String conn, Task task) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\HGUIdl\SQLUtil.cs:行号 136
+   在 HGU.WebService.HGUWebService.SendTask(String xml) 位置 E:\Work\TechQuick\安徽移动HGU自动激活系统\安徽移动HGU自动激活系统\src\HGUWebService\HGUWebService.asmx.cs:行号 100
+

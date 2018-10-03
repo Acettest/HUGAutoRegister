@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="zh-CN">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="SysDB">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="hostname" type="xs:string" minOccurs="0" />
+                <xs:element name="username" type="xs:string" minOccurs="0" />
+                <xs:element name="userpass" type="xs:string" minOccurs="0" />
+                <xs:element name="database" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="UserDB">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="hostname" type="xs:string" minOccurs="0" />
+                <xs:element name="username" type="xs:string" minOccurs="0" />
+                <xs:element name="userpass" type="xs:string" minOccurs="0" />
+                <xs:element name="database" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Parameters">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="name" type="xs:string" minOccurs="0" />
+                <xs:element name="value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SysDB>
+    <name>告警信息数据库</name>
+    <hostname>(local)</hostname>
+    <username>sa</username>
+    <userpass>1</userpass>
+    <database>HGU</database>
+  </SysDB>
+  <UserDB>
+    <name>用户信息数据库</name>
+    <hostname>(local)</hostname>
+    <username>sa</username>
+    <userpass>1</userpass>
+    <database>UserCenter</database>
+  </UserDB>
+  <Parameters>
+    <name>Compressed Alarm Server Port</name>
+    <value>7006</value>
+  </Parameters>
+  <Parameters>
+    <name>Alarm Server Port</name>
+    <value>7007</value>
+  </Parameters>
+  <Parameters>
+    <name>Adapter Server Port</name>
+    <value>7004</value>
+  </Parameters>
+  <Parameters>
+    <name>Controller Server Port</name>
+    <value>7003</value>
+  </Parameters>
+  <Parameters>
+    <name>North Server Port</name>
+    <value>7005</value>
+  </Parameters>
+  <Parameters>
+    <name>MaxClients</name>
+    <value>128</value>
+  </Parameters>
+  <Parameters>
+    <name>MaxAdapters</name>
+    <value>32</value>
+  </Parameters>
+  <Parameters>
+    <name>MaxControllers</name>
+    <value>5</value>
+  </Parameters>
+</NewDataSet>

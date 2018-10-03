@@ -1,0 +1,10 @@
+bin\Release\MD5Encrypt.dll
+bin\Release\MD5Encrypt.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\MD5Encrypt.dll
+obj\Release\MD5Encrypt.pdb
+bin\Debug\MD5Encrypt.dll
+bin\Debug\MD5Encrypt.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MD5Encrypt.dll
+obj\Debug\MD5Encrypt.pdb
